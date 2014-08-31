@@ -1,0 +1,299 @@
+/* BASIC RESET */
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,macbook,p,blockquote,fieldset,input{margin:0; padding:0;}
+
+/* COMMON CLASSES */
+.break { clear:both; }
+
+/* WRAPPER */
+#experience { 
+	width:1150px; 
+	margin:0px auto; 
+	background: url(../Images/chart2.png) 50% 0 no-repeat; 
+	background-size: 90%;
+	margin-top: -10px;
+}
+
+/* CONTENT */
+#content { }
+#content h2 { 
+	text-decoration: none;
+	font-weight: 200;
+	font-size: 2.6em;
+	font-family: 'Lato', Arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	color: #fff; 
+	top: 150px;
+  	margin-bottom:10%;
+}
+
+/* BAR CHART */
+#bar { list-style:none;  }
+#bar li { }
+
+/* Ellipse top */
+#bar li div.top {position:relative; float:left; margin-left:10px;
+	width:40px; height:90px;
+	-webkit-transition-property: margin-left;
+	-webkit-transition-duration: 900ms;
+}
+#bar li div.top img { margin-left:10px; margin-top:20px; }
+
+/* Bar bottom */
+#bar li div.bottom { position:relative; margin:5px 0; width:40px;
+	height:85px;
+	background-color: #aeaeae;
+	-webkit-transition-property: width;
+	-webkit-transition-duration: 500ms;
+	
+}
+
+/* General hover actions */
+#bar li:hover div.bottom div.infobox { color:#eee; text-shadow: 0px 5px 5px #111; }
+#bar li:hover div.bottom div.infobox p { opacity:1; }
+
+/* Photoshop bar */
+#iphone div.top { z-index:99; }
+#iphone div.bottom { z-index:98; height:150px; }
+#iphone:hover div.top { z-index:999;  margin-left:625px;  }
+#iphone:hover div.bottom { z-index:998;  width:660px ;
+	background-color: #5c6bc0 }
+
+/* Indesign bar */
+#macbook div.top { z-index:97; }
+#macbook div.bottom { z-index:96; height:200px; }
+#macbook:hover div.top { z-index:997; margin-left:464px; }
+#macbook:hover div.bottom { z-index:996; width:499px;
+	background-color: #f06292 }
+
+/* Fireworks bar */
+#ipod div.top { z-index:95; }
+#ipod div.bottom { z-index:94; height:250px; }
+#ipod:hover div.top { z-index:995; margin-left:545px; }
+#ipod:hover div.bottom { z-index:994; width:580px;
+	background-color: #ffee58 }
+	
+/* Illustrator bar */
+#cinema div.top { z-index:93; }
+#cinema div.bottom { z-index:92; height:100px; }
+#cinema:hover div.top { z-index:993; margin-left:464px; }
+#cinema:hover div.bottom { z-index:992; width:499px;
+	background-color: #ffb74d }
+	
+/* Flash bar */
+#macmini div.top { z-index:91; }
+#macmini div.bottom { z-index:90; height:120px; }
+#macmini:hover div.top { z-index:991; margin-left:299px; }
+#macmini:hover div.bottom { z-index:990; width:334px;
+	background-color: #f36c60 }
+
+
+/*********** GRAPH NUMBER 2 **********/
+
+#silo {   
+	margin-left: 42%; 
+	width: 500px;
+    height: 500px;
+	position: relative;
+}
+
+#skillset { 
+	width:1000px;   
+	background-size: 100%;
+	margin-top: 55px;
+	margin-left: 7%;
+	position: relative;  
+}
+
+.text1 p {    
+	text-decoration: none;
+	font-weight: 200;
+	font-size: 1.2em;
+	font-family: 'Lato', Arial, sans-serif;
+	color: #fff; 
+	text-align: justify;
+	margin-left: 83%;
+  	margin-right: 0%;
+  	margin-top: -430px;
+  	margin-bottom: 120px;   
+}
+
+.text2 p {    
+	text-decoration: none;
+	font-weight: 200;
+	font-size: 1.2em;
+	font-family: 'Lato', Arial, sans-serif;
+	color: #fff; 
+	text-align: justify;
+	margin-left: 0%;
+  	margin-right: 65%;
+  	margin-top: -350px;  
+}
+
+.button1 {
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 575px;
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #20a45d;
+  opacity: 0.9;
+  z-index: 15;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.button1 p {
+  font-size:22px;
+  text-align:center;
+  font-family: 'Lato', Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #fff; 
+  padding-top: 80px;
+}
+
+.button2 {
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 525px;
+  border-radius: 50%;
+  width: 260px;
+  height: 260px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #f2e660;
+  opacity: 0.9;
+  z-index: 11;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.button2 p {
+  font-size:22px;
+  text-align:center;
+  font-family: 'Lato', Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #fff; 
+  padding-top: 120px;
+}
+
+.button3 {
+  position: absolute;
+  margin-top: 365px;
+  margin-left: 750px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #5a8acb;
+  opacity: 0.9;
+  z-index: 17;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.button3 p {
+  font-size:22px;
+  text-align:center;
+  font-family: 'Lato', Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #fff; 
+  padding-top: 60px;
+}
+
+.button4 {
+  position: absolute;
+  margin-top: 125px;
+  margin-left: 650px;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #e76965;
+  opacity: 0.9;
+  z-index: 16;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.button4 p {
+  font-size:22px;
+  text-align:center;
+  font-family: 'Lato', Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #fff; 
+  padding-top: 130px;
+}
+
+.button5 {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 450px;
+  border-radius: 50%;
+  width: 190px;
+  height: 190px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #f4b04f;
+  opacity: 0.9;
+  z-index: 14;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.button5 p {
+font-size:22px;
+  text-align:center;
+  font-family: 'Lato', Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #fff; 
+  padding-top: 70px;
+}
+
+/* Pulse */
+@-webkit-keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+  }
+
+  75% {
+    -webkit-transform: scale(0.92);
+    transform: scale(0.92);
+  }
+}
+
+@keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+  }
+
+  75% {
+    -webkit-transform: scale(0.92);
+    transform: scale(0.92);
+  }
+}
+
+.pulse {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.pulse:hover, .pulse:focus, .pulse:active {
+  z-index:20;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}

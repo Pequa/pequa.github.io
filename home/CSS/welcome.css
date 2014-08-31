@@ -1,0 +1,54 @@
+#animate img {
+     background: red;  
+	 background-size: 100%;
+	 height: 720px; 
+     width: 100%; 
+     max-width: 2560px;
+     position: relative; 
+     -webkit-animation: super-rainbow 9s infinite alternate linear; 
+     -moz-animation: super-rainbow 9s infinite alternate linear; 
+     margin-bottom: -7px;
+}
+
+@-webkit-keyframes super-rainbow {
+    0%   { background: #161616; } 
+    20%  { background: #232323; }
+    40%  { background: #363636; }
+    60%  { background: #464646; }
+    80%  { background: #676767; }
+    100% { background: #828282; }
+}
+
+@-moz-keyframes super-rainbow {
+    0%   { background: #161616  } 
+    20%  { background: #232323; }
+    40%  { background: #363636; }
+    60%  { background: #464646; }
+    80%  { background: #676767; }
+    100% { background: #828282; }
+}
+
+#animate img:nth-of-type(2) { -webkit-animation-delay: .2s; -moz-animation-delay: .2s; }
+#animate img:nth-of-type(3) { -webkit-animation-delay: .2s; -moz-animation-delay: .2s; }
+#animate img:nth-of-type(4) { -webkit-animation-delay: .2s; -moz-animation-delay: .2s;  }
+
+#transition img {
+     background-position: 0 0;
+     background-size: 200% 100%;
+     background-color: red;
+     background-image: -webkit-linear-gradient(left, red, orange, yellow, green, blue, violet);
+     background-image:    -moz-linear-gradient(left, red, orange, yellow, green, blue, violet); 
+     background-image:     -ms-linear-gradient(left, red, orange, yellow, green, blue, violet);
+     background-image:      -o-linear-gradient(left, red, orange, yellow, green, blue, violet);
+     background-image:         linear-gradient(left, red, orange, yellow, green, blue, violet);
+     
+ -moz-transition: all 0.3s ease-out;  /* FF4+ */
+   -o-transition: all 0.3s ease-out;  /* Opera 10.5+ */
+-webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
+  -ms-transition: all 0.3s ease-out;  /* IE10? */
+      transition: all 0.3s ease-out;  
+}
+
+#transition img:hover {
+     background-position: -100% 100%;    
+}

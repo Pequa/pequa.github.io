@@ -1,0 +1,79 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+a:link    { color: #fff }  /* unvisited links */
+a:visited { color: #fff }  /* visited links   */
+a:hover   { color: #fff }  /* user hovers     */
+a:active  { color: #fff }  /* active links    */
+
+
+#welcome { 
+	background-color:#78909c;
+	background-size: 100%;
+	height: 720px;
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 2560px;
+    position: relative; 
+    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+}
+
+#aboutme { 
+	background: url(../Images/headshotE@2x.jpg) 50% 0 repeat-y; 
+	background-size: 100%;
+	height: 630px;  
+	margin: 0 auto; 
+    width: 100%;
+    max-width: 2560px; 
+    position: relative; 
+    /* box-shadow: 0 0 25px rgba(0,0,0,0.4); */
+}
+
+#skillsetexperience { 
+	background: url(../Images/bg1.jpg) 50% 0 fixed repeat-y;
+	/* background-color:#212121; */
+	background-size: 100%;
+	height: 1400px;  
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 2560px;
+    position: relative; 
+    padding: 60px 0 0 0;
+    /* box-shadow: 0 0 25px rgba(0,0,0,0.4); */
+}
+#experience { 
+	background-color:#cccccc; 
+	background-size: 100%; 
+	height: 720px;
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 2560px;
+    position: relative; 
+    /* box-shadow: 0 0 25px rgba(0,0,0,0.4); */
+}
+
+#contact { 
+	background: url(../Images/phone-bg.jpg) 50% 0 fixed repeat-y; 
+	background-size: 100%; 
+	height: 720px;
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 2560px;
+    position: relative; 
+    padding: 210px 0 0 0;
+    /* box-shadow: 0 0 25px rgba(0,0,0,0.4); */
+}
+
+#slideshow { 
+	position: absolute;
+	background-size: 100%;
+	height: 630px;  
+	margin: 0 auto;
+    width: 100%;
+    max-width: 2560px; 
+    position: relative;
+    /* box-shadow: 0 0 0px rgba(0,0,0,0); */
+    
+}
