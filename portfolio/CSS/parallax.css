@@ -1,0 +1,211 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+a:link    { color: #fff }  /* unvisited links */
+a:visited { color: #fff }  /* visited links   */
+a:hover   { color: #fff }  /* user hovers     */
+a:active  { color: #fff }  /* active links    */
+
+#project1 { 
+	background: url(../Images/garden@2x.jpg) 50% 0 no-repeat fixed; 
+	background-size: 100%;
+	background-repeat:repeat-y;
+	height: 900px;  
+	margin: 0 auto; 
+    width: 100%;
+    max-width: 2560px; 
+    position: relative; 
+    /* box-shadow: 0 0 50px rgba(0,0,0,0.8); */
+    
+}
+#project2 { 
+	background: url(../Images/handrake@2x.jpg) 50% 0 no-repeat fixed;
+	background-size: 100%;
+	background-repeat:repeat-y; 
+	height: 900px;
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 2560px;
+    position: relative; 
+    /* box-shadow: 0 0 50px rgba(0,0,0,0.8); */
+}
+#project3 { 
+	background: url(../Images/chair@2x.jpg) 50% 0 no-repeat fixed; 
+	background-size: 100%;
+	background-repeat:repeat-y;
+	height: 900px;  
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 2560px;
+    position: relative; 
+    /* box-shadow: 0 0 50px rgba(0,0,0,0.8); */
+}
+#project4 { 
+	background: url(../Images/watch@2x.jpg) 50% 0 no-repeat fixed; 
+	background-size: 100%; 
+	background-repeat:repeat-y;
+	height: 900px;
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 2560px;
+    position: relative; 
+    /* box-shadow: 0 0 50px rgba(0,0,0,0.8); */
+}
+
+/****** Hover Effect *******/
+div.slidecontainer1 {
+	position: absolute;
+	height: 630px;
+	width: 100%;
+	max-width:2560px;
+	z-index: 20;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 15;
+	display: block;
+}
+
+div.slidecontainer2 {
+	position: absolute;
+	height: 630px;
+	width: 100%;
+	max-width:2560px;
+	z-index: 20;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 15;
+	display: block;
+}
+
+div.slidecontainer3 {
+	position: absolute;
+	height: 630px;
+	width: 100%;
+	max-width:2560px;
+	z-index: 20;
+}
+
+.overlay3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 15;
+	display: block;
+}
+
+div.slidecontainer4 {
+	position: absolute;
+	height: 630px;
+	width: 100%;
+	max-width:2560px;
+	z-index: 20;
+}
+
+.overlay4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 15;
+	display: block;
+}
+
+/* ***** Text Overlays ***** */
+
+div.cl-text-1 a {
+	position: absolute;
+	height: 90px;
+	padding: 10px 0 0 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 200;
+	font-size: 3.5em;
+	font-family: 'Lato', Arial, sans-serif;
+	top: 291px;
+	text-align: left;
+	margin-left: auto;
+  	margin-right: 30%;
+    width: 100%;
+    /** background-color: rgba(0,0,0,0.5); **/
+    z-index: 30;
+}
+
+div.cl-text-2 a {
+	position: absolute;
+	height: 90px;
+	padding: 10px 0 0 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 200;
+	font-size: 3.5em;
+	font-family: 'Lato', Arial, sans-serif;
+	top: 391px;
+	text-align: left;
+	margin-left: auto;
+  	margin-right: 30%;
+    width: 100%;
+    /** background-color: rgba(0,0,0,0.5); **/
+    z-index: 30;
+}
+
+
+
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+.cl-effect-1 a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+	
+}
+
+.cl-effect-1 a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after,
+.cl-effect-1 a:focus::before,
+.cl-effect-1 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+

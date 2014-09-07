@@ -1,0 +1,14 @@
+body{
+	background-color: #f8f8f8;
+	margin: 0px;
+}
+
+#background { 
+	background-color: #f8f8f8;
+	height: auto;  
+	margin: 0 auto; 
+    width: 100%;
+    max-width: 2560px; 
+    position: relative; 
+    
+}
