@@ -4,6 +4,11 @@ div.slidecontainer {
 	width: 100%;
 	max-width:2560px;
 	z-index: 20;
+	border-top-style: solid;
+    border-top-width: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 20px;
+    border-color: #1a1a1a;
 }
 
 .overlay {
@@ -24,19 +29,23 @@ div.slidecontainer {
 	padding:10px 0 0 0;
 	text-decoration: none;
 	text-transform: uppercase;
-	letter-spacing: 10px;
+	letter-spacing: 8px;
 	font-weight: 200;
 	font-size: 2.5em;
 	font-family: 'Lato', Arial, sans-serif;
 	text-align: center;
 	margin-left: auto;
   	margin-right: auto;
-    width: 55%;
+    width: 50%;
     z-index: 22;
     display: block;
 }
 
 /* ***** Text Overlays ***** */
+
+.cl-effect-1 {
+	z-index: 1;
+}
 
 .cl-effect-1 a::before,
 .cl-effect-1 a::after {
