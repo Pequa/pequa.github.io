@@ -11,7 +11,7 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,macbook,p,blockquote,fieldset,input{mar
 	width:100%;  
 	margin-top: -60px;
 	padding: 0% 10% 0% 10%; 
-	background: url(../Images/bg3.jpg);
+	background: url(../Images/bg4.jpg);
 	background-size: 100%; 
 	background-color:#424242;
 	position: relative;
@@ -110,39 +110,39 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,macbook,p,blockquote,fieldset,input{mar
 #bar li:hover div.bottom div.infobox p { opacity:1; }
 
 /* Photoshop bar */
-#iphone div.top { z-index:99; }
-#iphone div.bottom { z-index:98; height:150px; }
-#iphone:hover div.top { z-index:999;  margin-left:534px;  }
-#iphone:hover div.bottom { z-index:998;  width:569px ;
-	background-color: #5c6bc0 }
+#photoshop div.top { z-index:99; }
+#photoshop div.bottom { z-index:98; height:150px; }
+#photoshop:hover div.top { z-index:999;  margin-left:534px;  }
+#photoshop:hover div.bottom { z-index:998;  width:569px ;
+	background-color: #577dd3 }
 
 /* Indesign bar */
-#macbook div.top { z-index:97; }
-#macbook div.bottom { z-index:96; height:200px; }
-#macbook:hover div.top { z-index:997; margin-left:464px; }
-#macbook:hover div.bottom { z-index:996; width:499px;
+#indesign div.top { z-index:97; }
+#indesign div.bottom { z-index:96; height:200px; }
+#indesign:hover div.top { z-index:997; margin-left:464px; }
+#indesign:hover div.bottom { z-index:996; width:499px;
 	background-color: #f06292 }
 
 /* Fireworks bar */
-#ipod div.top { z-index:95; }
-#ipod div.bottom { z-index:94; height:250px; }
-#ipod:hover div.top { z-index:995; margin-left:387px; }
-#ipod:hover div.bottom { z-index:994; width:422px;
+#fireworks div.top { z-index:95; }
+#fireworks div.bottom { z-index:94; height:250px; }
+#fireworks:hover div.top { z-index:995; margin-left:387px; }
+#fireworks:hover div.bottom { z-index:994; width:422px;
 	background-color: #ffee58 }
 	
 /* Illustrator bar */
-#cinema div.top { z-index:93; }
-#cinema div.bottom { z-index:92; height:100px; }
-#cinema:hover div.top { z-index:993; margin-left:464px; }
-#cinema:hover div.bottom { z-index:992; width:499px;
+#illustrator div.top { z-index:93; }
+#illustrator div.bottom { z-index:92; height:100px; }
+#illustrator:hover div.top { z-index:993; margin-left:464px; }
+#illustrator:hover div.bottom { z-index:992; width:499px;
 	background-color: #ffb74d }
 	
-/* Flash bar */
-#macmini div.top { z-index:91; }
-#macmini div.bottom { z-index:90; height:120px; }
-#macmini:hover div.top { z-index:991; margin-left:155px; }
-#macmini:hover div.bottom { z-index:990; width:190px;
-	background-color: #f36c60 }
+/* Dreamweaver bar */
+#dreamweaver div.top { z-index:91; }
+#dreamweaver div.bottom { z-index:90; height:120px; }
+#dreamweaver:hover div.top { z-index:991; margin-left:239px; }
+#dreamweaver:hover div.bottom { z-index:990; width:274px;
+	background-color: #65c835 }
 
 
 /*********** GRAPH NUMBER 2 **********/
@@ -192,6 +192,7 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,macbook,p,blockquote,fieldset,input{mar
   	margin-top: -390px;  
 }
 
+/*** Physical Modeling **/
 .button1 {
   position: absolute;
   margin-top: 40px;
@@ -217,6 +218,7 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,macbook,p,blockquote,fieldset,input{mar
   padding-top: 80px;
 }
 
+/*** Ideation **/
 .button2 {
   position: absolute;
   margin-top: 240px;
@@ -242,6 +244,7 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,macbook,p,blockquote,fieldset,input{mar
   padding-top: 120px;
 }
 
+/*** HTML CSS **/
 .button3 {
   position: absolute;
   margin-top: 335px;
@@ -267,6 +270,7 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,macbook,p,blockquote,fieldset,input{mar
   padding-top: 75px;
 }
 
+/*** Adobe Suite **/
 .button4 {
   position: absolute;
   margin-top: 95px;
@@ -292,6 +296,7 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,macbook,p,blockquote,fieldset,input{mar
   padding-top: 130px;
 }
 
+/*** Digital Modeling **/
 .button5 {
   position: absolute;
   margin-top: 120px;

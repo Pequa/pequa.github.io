@@ -1,6 +1,7 @@
 body{
 	margin:0;
 	padding:0;
+	min-width: 1165px;
 }
 
 a:link    { color: #fff }  /* unvisited links */
@@ -12,7 +13,7 @@ a:active  { color: #fff }  /* active links    */
 #welcome { 
 	background-color:#232323;
 	background-size: 100%;
-	height: 720px;
+	height: 760px;
 	margin: 0 auto; 
     width: 100%; 
     max-width: 2560px;
@@ -21,7 +22,7 @@ a:active  { color: #fff }  /* active links    */
 }
 
 #aboutme { 
-	background: url(../Images/headshotE@2x.jpg) 50% 0 repeat-y; 
+	background: url(../Images/headshotE.jpg) 50% 0 repeat-y; 
 	background-size: 100%;
 	height: 630px;  
 	margin: 0 auto; 
@@ -62,7 +63,7 @@ a:active  { color: #fff }  /* active links    */
     width: 100%; 
     max-width: 2560px;
     position: relative; 
-    padding: 240px 0 0 0;
+    padding: 245px 0 0 0;
     /* box-shadow: 0 0 25px rgba(0,0,0,0.4); */
 }
 

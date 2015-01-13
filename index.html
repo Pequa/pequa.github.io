@@ -15,6 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="home/CSS/skillset.css" />
 	<link rel="stylesheet" type="text/css" href="home/CSS/welcome.css" />
 	<link rel="stylesheet" type="text/css" href="home/CSS/contact.css" />
+	<link rel="stylesheet" type="text/css" href="home/CSS/arrows.css" />
 	<link rel="stylesheet" type="text/css" href="home/Fonts/font-awesome-4.1.0/css/font-awesome.css" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="/scripts/retina.js"></script>
@@ -27,9 +28,13 @@
   <body>
   
     <section class="welcome2">
+    	<div class="logo">
+    	<img src="home/Images/logo-dark.png"/>
+    	</div>
         <div class="title-top animated fadeInDown"><h2>PETER QUINN</h2></div>
         <hr class="line">
         <div class="title-bottom animated fadeInUp"><h2>INDUSTRIAL DESIGNER</h2></div>
+        
     </section>
     
     <div class="greyscale" id="greyscale">
@@ -65,45 +70,45 @@
 	  <div id="chart-wrapper">
 	  <div id="content">
 		<ul id="bar">
-			<li id="iphone">
+			<li id="photoshop">
 				<div class="top">
-					<img src="home/Images/photoshop@2x.png" style="height: 50%"/>
+					<img src="home/Images/photoshop.png" style="height: 50%"/>
 				</div>
 				<div class="bottom">
 					<div class="infobox">
 					</div>
 				</div>
 			</li>
-			<li id="macbook">
+			<li id="indesign">
 				<div class="top">
-					<img src="home/Images/indesign@2x.png" style="height: 50%"/>
+					<img src="home/Images/indesign.png" style="height: 50%"/>
 				</div>
 				<div class="bottom">
 					<div class="infobox">
 					</div>
 				</div>
 			</li>
-			<li id="ipod">
+			<li id="fireworks">
 				<div class="top">
-					<img src="home/Images/fireworks@2x.png" style="height: 50%"/>
+					<img src="home/Images/fireworks.png" style="height: 50%"/>
 				</div>
 				<div class="bottom">
 					<div class="infobox">
 					</div>
 				</div>
 			</li>
-			<li id="cinema">
+			<li id="illustrator">
 				<div class="top">
-					<img src="home/Images/illustrator@2x.png" style="height: 50%"/>
+					<img src="home/Images/illustrator.png" style="height: 50%"/>
 				</div>
 				<div class="bottom">
 					<div class="infobox">
 					</div>
 				</div>
 			</li>
-			<li id="macmini">
+			<li id="dreamweaver">
 				<div class="top">
-					<img src="home/Images/flash@2x.png" style="height: 50%"/>
+					<img src="home/Images/dreamweaver.png" style="height: 50%"/>
 				</div>
 				<div class="bottom">
 					<div class="infobox">
@@ -124,11 +129,17 @@
     
     <nav id="bt-menu" class="bt-menu">
 			<a href="#" class="bt-menu-trigger"><span>Menu</span></a>
+			<div class="arrow-scroll animated2 fadeIn">
+    	    <img src="home/Images/arrow-scroll.png"/>
+    	    </div>
+            <div class="arrow-menu animated2 fadeIn">
+    	    <img src="home/Images/arrow-menu.png"/>
+    	    </div>
 			<ul>
 				<div class="menu-main">
 				<li style="margin: 0 90px 0 0 !important;" ><a href="#aboutme" class="bt-icon icon-user-outline">About Me</a></li>
-				<li style="margin: 0 110px 0 0 !important;" ><a href="#experience" class="bt-icon icon-windows">Experience</a></li>
-				<li style="margin: 0 175px 0 0 !important;" ><a href="#skillset" class="bt-icon icon-windows">Skillset</a></li>
+				<li style="margin: 0 80px 0 0 !important;" ><a href="#skillset" class="bt-icon icon-windows">Skillset</a></li>
+				<li style="margin: 0 195px 0 0 !important;" ><a href="#experience" class="bt-icon icon-windows">Experience</a></li>
 				<li style="margin: 0 100px 0 0 !important;" ><a href="portfolio/index.html" class="bt-icon icon-star">Portfolio</a></li>
 				<li style="margin: 0 70px 0 0 !important;" ><a href="http://www.hackertyper.com" class="bt-icon icon-bubble">Resume</a></li>
 				<li style="margin: 0 5px 0 0 !important;" ><a href="#contact" class="bt-icon icon-speaker">Contact</a></li>
@@ -137,32 +148,18 @@
 	</nav>
 	
 	<section id="slideshow">
-		<div class="title">
-			<nav class="cl-effect-1" id="cl-effect-2">
-        	<a href="portfolio/index.html"><span data-hover="garden">View My Portfolio</span></a>
-        	</nav>
-    	</div>
-    	<div class="slidecontainer">
-    	  <script>
-    	  $('.slidecontainer').mouseover(function(){
-   		  $('.overlay').animate({ height: "80px"},{ duration: 200, queue: false });
- 		  $('.overlay').animate({ marginTop: "265px"},{ duration: 200, queue: false });
-	 	  });
-	 	  $('.slidecontainer').mouseout(function(){
-	 	    var timeout = setTimeout(function(){
-	    	  $('.overlay').animate({ height: "630px"},{ duration: 200, queue: false });
-	          $('.overlay').animate({marginTop: "0px"},{ duration: 200, queue: false });
-	        }, 6000);
-		  });
-		  </script>
+		
+		<div class="overlay">
 		</div>
-    	<div class="overlay">
+		<div class="title">
+		<a href="../Portfolio/index.html">View My Portfolio</a>
     	</div>
+    	
 		<ul class="bxslider">
-	 	  <li><img src="home/Images/1.jpg"/></li>
-	  	  <li><img src="home/Images/2.jpg"/></li>
-	  	  <li><img src="home/Images/3.jpg"/></li>
-	  	  <li><img src="home/Images/4.jpg"/></li>
+	 	  <li><img src="home/Images/1.jpg" height="640" style="margin-top: -5px"/></li>
+	  	  <li><img src="home/Images/2.jpg" height="640" style="margin-top: -5px"/></li>
+	  	  <li><img src="home/Images/3.jpg" height="640" style="margin-top: -5px"/></li>
+	  	  <li><img src="home/Images/4.jpg" height="640" style="margin-top: -5px"/></li>
 		</ul>
 		<script>
 		  $(document).ready(function(){
@@ -171,17 +168,18 @@
  			autoControls: false,
  			controls: false,
  			randomStart: true,
- 			pause: 0,
+ 			pause: 3500,
  			pager: false,
- 			speed: 12000,
- 			easing: 'linear',
+ 			speed: 900,
+ 			easing: 'ease-in-out',
+ 			mode: 'vertical',
 			});
 		  }); 
 		</script>
 	</section>
 	
 	<section id="contact">
-				<div class="contact-title">GET A HOLD OF ME.</div>
+				<div class="contact-title">I'D LOVE TO HEAR FROM YOU.</div>
 				<div class="hi-icon-wrap hi-icon-effect-2 hi-icon-effect-2b">
 					<a href="mailto:peterquinn.design@gmail.com" class="hi-icon hi-icon-email">Email</a>
 					<a href="#tel" class="hi-icon hi-icon-phone">Phone</a>
