@@ -4,7 +4,7 @@
 	position: fixed;
 	display: block;
     margin-left: 41%;
-    padding-top: 45%;
+    bottom: 40px;
 	width: 80px;
 	z-index: 10001; 
 }
@@ -13,8 +13,8 @@
 	position: fixed;
 	display: block;
     margin-left: 2%;
-    margin-top: 44%;
-	width: 75px;
+    bottom: 40px;
+	width: 75px; 
 }
 
 .animated2 {
