@@ -3,8 +3,8 @@
 .arrow-menu img {   
 	position: fixed;
 	display: block;
-    margin-left: 600px;
-    padding-top: 650px;
+    margin-left: 41%;
+    padding-top: 45%;
 	width: 80px;
 	z-index: 10001; 
 }
@@ -12,9 +12,9 @@
 .arrow-scroll img {   
 	position: fixed;
 	display: block;
-    margin-left: 30px;
-    margin-top: 640px;
-	width: 75px; 
+    margin-left: 2%;
+    margin-top: 44%;
+	width: 75px;
 }
 
 .animated2 {
