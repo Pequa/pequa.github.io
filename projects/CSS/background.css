@@ -1,6 +1,7 @@
 body{
 	background-color: #f8f8f8;
 	margin: 0px;
+	margin-bottom:-5px;
 }
 
 #background { 
@@ -8,7 +9,9 @@ body{
 	height: auto;  
 	margin: 0 auto; 
     width: 100%;
-    max-width: 2560px; 
+    min-width: 965px; 
+    max-width: 1440px; 
     position: relative; 
+    
     
 }
