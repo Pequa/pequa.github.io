@@ -1,6 +1,6 @@
 html, body {
 margin: 0px; padding:0; font-size:100%; line-height:1;
-background: url(../Images/bg3.jpg);
+background: url(../Images/bg7.jpg);
 background-size: 100%;
 }
 
@@ -11,7 +11,7 @@ background-size: 100%;
 }
 
 .content {
-	 height: 990px; 
+	 height: 932px; 
      width: 100%; 
      min-width: 1165px;
      max-width: 2560px;
@@ -22,7 +22,7 @@ background-size: 100%;
 .grid {
 	position: relative;
 	margin: 0 auto;
-	padding: fem 0 4em;
+	padding: 0em 5em;
 	max-width: 100%;
 	list-style: none;
 	text-align: center;
@@ -44,6 +44,10 @@ background-size: 100%;
 	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
+    
+    -moz-box-shadow:    0 0px 8px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 0 0px 8px rgba(0,0,0,0.35);
+    box-shadow:         0 0px 8px rgba(0,0,0,0.35);
 }
 
 .grid figure img {
@@ -58,7 +62,7 @@ background-size: 100%;
 	padding: 57.5% 0px 0px 0px;
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	font-family: 'lato';
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -99,7 +103,7 @@ background-size: 100%;
 
 .grid figure h2,
 .grid figure p {
-	margin: -50px;
+	margin: -45px;
 }
 
 .grid figure p {
@@ -179,7 +183,7 @@ figure.effect-ruby figcaption::before {
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	height: 10px;
+	height: 8px;
 	background: #f4b04f;
 	content: '';
 	-webkit-transform: translate3d(0,10px,0);
@@ -258,7 +262,7 @@ figure.effect-ruby2 figcaption::before {
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	height: 10px;
+	height: 8px;
 	background: #5a8acb;
 	content: '';
 	-webkit-transform: translate3d(0,10px,0);
@@ -337,7 +341,86 @@ figure.effect-ruby3 figcaption::before {
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	height: 10px;
+	height: 8px;
+	background: #e76965;
+	content: '';
+	-webkit-transform: translate3d(0,10px,0);
+	transform: translate3d(0,10px,0);
+}
+
+/*---------------------*/
+/***** Ruby BLUE  ******/
+/*---------------------*/
+
+figure.effect-ruby4 {
+	background-color: #000;
+}
+
+figure.effect-ruby4 img {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+}
+
+figure.effect-ruby4:hover img {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.effect-ruby4 h2 {
+	margin-top: 20%;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0);
+	transform: translate3d(0,20px,0);
+}
+
+figure.effect-ruby4 p {
+	margin: 1em 0 0;
+	padding: 3em;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0) scale(1.1);
+	transform: translate3d(0,20px,0) scale(1.1);
+} 
+
+figure.effect-ruby4:hover h2 {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-ruby4:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0) scale(1);
+	transform: translate3d(0,0,0) scale(1);
+}
+
+figure.effect-ruby4 figcaption::before,
+{
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+figure.effect-ruby4:hover figcaption::before, i {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-ruby4 figcaption::before, h2 {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+figure.effect-ruby4 figcaption::before {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 8px;
 	background: #20a45d;
 	content: '';
 	-webkit-transform: translate3d(0,10px,0);

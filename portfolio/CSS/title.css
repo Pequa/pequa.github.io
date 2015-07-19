@@ -1,3 +1,12 @@
+body {
+	-webkit-font-smoothing: antialiased;
+}
+ 
+h1, h2, h3, h4, h5 {
+	-webkit-font-smoothing: antialiased;
+}
+
+
 /************/
 /*
 .logo img {   
@@ -39,7 +48,7 @@
 	margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-	width: 200px; 
+	width: 160px; 
 }
 
 .title h2 {    
@@ -69,7 +78,7 @@
 .title-top h2 {
 	position: relative;
 	font-weight: 800;
-	font-size: 3em;
+	font-size: 2.7em;
 	font-family: 'Lato', Arial, sans-serif;
 	letter-spacing: 2px;
 	color: #fff; 
@@ -81,7 +90,7 @@
 .title-bottom h2 {
 	position: relative;
 	font-weight: 200;
-	font-size: 2em;
+	font-size: 1.6em;
 	font-family: 'Lato', Arial, sans-serif;
 	letter-spacing: 20px;
 	color: #fff; 
@@ -115,12 +124,12 @@ hr {
 
 @-webkit-keyframes lineexpand {
     from {width: 0px; opacity: 0;}
-    to {width: 330px; opacity: 1;}
+    to {width: 300px; opacity: 1;}
 }
 
 @keyframes lineexpand {
     from {width: 0px; opacity: 0;}
-    to {width: 330px; opacity: 1;}
+    to {width: 300px; opacity: 1;}
 } 
 
 

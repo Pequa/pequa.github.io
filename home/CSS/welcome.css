@@ -1,7 +1,8 @@
 .welcome2 {
-	 background: url(../Images/bg.jpg) no-repeat;
-	 background-position: 0px -170px;
-	 background-attachment: fixed;
+	 background: url(../Images/bg5.jpg) repeat;
+	 background-position: 0px 0px;
+	 background-attachment: scroll;
+     /*-webkit-transform:translatez(0);*/
 	 background-size: 100%;
 	 height: 760px; 
      width: 100%; 
@@ -15,15 +16,15 @@
 	display: block;
 	margin-left: auto;
     margin-right: auto;
-    padding-top: 170px;
-	width: 275px; 
+    padding-top: 220px;
+	width: 190px; 
 }
 
 .title-top h2 {
 	position: relative;
 	display: block;
 	font-weight: 600;
-	font-size: 5.6em;
+	font-size: 4.25em;
 	font-family: 'Lato', Arial, sans-serif;
 	letter-spacing: 4px;
 	color: #232323; 
@@ -31,23 +32,23 @@
 	text-align: center;
 	margin-left: auto;
   	margin-bottom: auto;
-  	margin-top: -18px;
+  	margin-top: -11px;
   	padding-left: 2px;
 }
 
 .title-bottom h2 {
 	position: relative;
 	display: block;
-	font-weight: 200;
-	font-size: 2.0em;
+	font-weight: 300;
+	font-size: 1.3em;
 	font-family: 'Lato', Arial, sans-serif;
-	letter-spacing: 15px;
+	letter-spacing: 14px;
 	color: #232323; 
 	top: 0px;
 	text-align: center;
 	margin-left: auto;
   	margin-bottom: auto;
-  	margin-top: 2px;
+  	margin-top: 5px;
   	padding-left: 11px;
 }
 
@@ -57,7 +58,7 @@ hr {
    border-width: 1px;
    opacity: 0;
    width: 0px;
-   margin-top: -1px;
+   margin-top: 0px;
    margin-left: auto;
    margin-bottom: auto;
    z-index: 10;
@@ -74,12 +75,12 @@ hr {
 
 @-webkit-keyframes lineexpand {
     from {width: 0px; opacity: 0;}
-    to {width: 615px; opacity: 1;}
+    to {width: 478px; opacity: 1;}
 }
 
 @keyframes lineexpand {
     from {width: 0px; opacity: 0;}
-    to {width: 615px; opacity: 1;}
+    to {width: 478px; opacity: 1;}
 } 
 
 /*******************/

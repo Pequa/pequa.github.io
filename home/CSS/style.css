@@ -22,7 +22,7 @@ a:active  { color: #fff }  /* active links    */
 }
 
 #aboutme { 
-	background: url(../Images/headshotE.jpg) 50% 0 repeat-y; 
+	background: url(../Images/headshotF.jpg) 50% 0 repeat-y; 
 	background-size: 100%;
 	height: 630px;  
 	margin: 0 auto; 
@@ -30,6 +30,11 @@ a:active  { color: #fff }  /* active links    */
     max-width: 2560px; 
     position: relative; 
     /* box-shadow: 0 0 25px rgba(0,0,0,0.4); */
+    
+    -moz-box-shadow:    0 -5px 15px rgba(0,0,0,0.20);
+    -webkit-box-shadow: 0 -5px 15px rgba(0,0,0,0.20);
+    box-shadow:         0 -5px 15px rgba(0,0,0,0.20);
+    
 }
 
 #skillsetexperience { 
@@ -44,6 +49,7 @@ a:active  { color: #fff }  /* active links    */
     padding: 60px 0 0 0;
     /* box-shadow: 0 0 25px rgba(0,0,0,0.4); */
 }
+
 #experience { 
 	background-color:#cccccc; 
 	background-size: 100%; 
@@ -53,10 +59,15 @@ a:active  { color: #fff }  /* active links    */
     max-width: 2560px;
     position: relative; 
     /* box-shadow: 0 0 25px rgba(0,0,0,0.4); */
+    
+    -moz-box-shadow:    0 -5px 15px rgba(0,0,0,0.20);
+    -webkit-box-shadow: 0 -5px 15px rgba(0,0,0,0.20);
+    box-shadow:         0 -5px 15px rgba(0,0,0,0.20);
 }
 
 #contact { 
-	background: url(../Images/phone-bg2.jpg) 50% 0 fixed repeat-y; 
+	background: url(../Images/phone-bg2.jpg) 50% 0 scroll repeat-y; 
+    /*-webkit-transform:translatez(0);*/
 	background-size: 100%; 
 	height: 720px;
 	margin: 0 auto; 
@@ -64,7 +75,10 @@ a:active  { color: #fff }  /* active links    */
     max-width: 2560px;
     position: relative; 
     padding: 245px 0 0 0;
-    /* box-shadow: 0 0 25px rgba(0,0,0,0.4); */
+    
+    -moz-box-shadow:    0 -5px 15px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 0 -5px 15px rgba(0,0,0,0.35);
+    box-shadow:         0 -5px 15px rgba(0,0,0,0.35);
 }
 
 #slideshow { 
@@ -75,6 +89,8 @@ a:active  { color: #fff }  /* active links    */
     width: 100%;
     max-width: 2560px; 
     position: relative;
-    /* box-shadow: 0 0 0px rgba(0,0,0,0); */
     
+    -moz-box-shadow:    0 -5px 15px rgba(0,0,0,0.20);
+    -webkit-box-shadow: 0 -5px 15px rgba(0,0,0,0.20);
+    box-shadow:         0 -5px 15px rgba(0,0,0,0.20);
 }

@@ -24,6 +24,7 @@
 .bx-wrapper img {
 	max-width: 100%;
 	display: block;
+    
 }
 
 /** THEME
@@ -36,6 +37,7 @@
 	border:  5px solid #fff;
 	left: -5px;
 	background: #fff;
+    
 	
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
