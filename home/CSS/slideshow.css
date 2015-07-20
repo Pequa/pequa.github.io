@@ -1,9 +1,8 @@
-div.slidecontainer {
-	position: absolute;
-	height: 630px;
-	width: 100%;
-	max-width:2560px;
-	z-index: 20;
+#slideshow img{
+	position: relative;
+    width: 100%;
+    margin-top: 0px;
+    min-width: 1465px;
 }
 
 .overlay {
