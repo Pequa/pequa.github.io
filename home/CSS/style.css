@@ -23,7 +23,7 @@ a:active  { color: #fff }  /* active links    */
 
 #aboutme { 
 	background: url(../Images/headshotF.jpg) 50% 0 repeat-y; 
-	background-size: 100%;
+	background-size: cover;
 	height: 630px;  
 	margin: 0 auto; 
     width: 100%;
@@ -68,7 +68,7 @@ a:active  { color: #fff }  /* active links    */
 #contact { 
 	background: url(../Images/phone-bg2.jpg) 50% 0 scroll repeat-y; 
     /*-webkit-transform:translatez(0);*/
-	background-size: 100%; 
+	background-size: cover; 
 	height: 720px;
 	margin: 0 auto; 
     width: 100%; 
