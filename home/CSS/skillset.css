@@ -69,8 +69,7 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,macbook,p,blockquote,fieldset,input{mar
 }
 
 #content2 { 
-	width:100%;
-    max-width: 1165px;
+	width:1045px;
 	position: relative;
 	margin: 0 auto;
 }
@@ -82,8 +81,8 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,macbook,p,blockquote,fieldset,input{mar
 }
 
 .text2 {    
-	margin-right: 5%;
-  	margin-left: -2.6%;
+	margin-right: 4%;
+  	margin-left: -5.5%;
 	margin-top: -400px;
 	height: 500px;
 }
