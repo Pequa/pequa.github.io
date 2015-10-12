@@ -1,0 +1,101 @@
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+}
+ 
+h1, h2, h3, h4, h5 {
+	-webkit-font-smoothing: antialiased;
+}
+
+.text {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.text h1 {
+	position: relative;
+	display: block;
+	font-weight: 600;
+	font-size: 5em;
+	font-family: 'Lato', Arial, sans-serif;
+	letter-spacing: 3px;
+	color: #fff; 
+	text-align: center;
+	margin-left: auto;
+  	margin-bottom: auto;
+  	margin-top: 0px;
+  	padding-left: 2px;
+}
+
+.text h3 {
+	position: relative;
+	display: block;
+	font-weight: 300;
+	font-size: 2.4em;
+	font-family: 'Lato', Arial, sans-serif;
+	letter-spacing: 4px;
+	color: #fff; 
+	top: 0px;
+	text-align: center;
+	margin-left: auto;
+  	margin-bottom: auto;
+    margin-top: 30px;
+    
+}
+
+.text p {
+	position: relative;
+	display: block;
+	font-weight: 300;
+	font-size: 1.0em;
+	font-family: 'Lato', Arial, sans-serif;
+	letter-spacing: 1px;
+	color: #fff; 
+	text-align: center;
+	margin-left: auto;
+    margin-top: 5px;
+  	margin-bottom: 95px;
+    padding: 0px 100px;
+  	
+}
+
+.text-title h1 {
+	position: relative;
+	display: block;
+	font-weight: 600;
+	font-size: 5em;
+	font-family: 'Lato', Arial, sans-serif;
+	letter-spacing: 3px;
+	color: #fff; 
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+  	margin-bottom: auto;
+  	margin-top: 40px;
+  	padding-left: 2px;
+    width: 80%;
+    min-width: 1165px;
+}
+
+.text-title p {
+	position: relative;
+	display: block;
+	font-weight: 300;
+	font-size: 1.2em;
+	font-family: 'Lato', Arial, sans-serif;
+	letter-spacing: 1px;
+	color: #fff; 
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 65%;
+    min-width: 1000px;
+
+  	
+}

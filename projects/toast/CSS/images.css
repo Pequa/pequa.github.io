@@ -1,0 +1,218 @@
+body {
+  background: #262626;
+  margin: 0px auto;
+  width: 100%;
+  min-width: 1165px;
+}
+
+.images img{
+	position: relative;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+    margin-top: -45px;
+    margin-bottom: 15px;
+}
+
+.images img{
+	position: relative;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+    margin-top: -45px;
+    margin-bottom: 15px;
+    -webkit-filter: drop-shadow(6px 6px 7px rgba(0,0,0,0.14));
+}
+
+.paisley {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+    padding-top: -20px;
+    padding-bottom: 50px;
+    background-image: url(../Images/bg.jpg);
+    background-size: 100%;
+    background-color: #2c2c2c;
+    width: 100%;
+    -moz-box-shadow:    inset 0 0 20px rgba(0,0,0,0.25);
+    -webkit-box-shadow: inset 0 0 20px rgba(0,0,0,0.25);
+    box-shadow:         inset 0 0 20px rgba(0,0,0,0.25);
+}
+
+.paisley2 {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    padding-top: -20px;
+    padding-bottom: 90px;
+    background-image: url(../Images/bg.jpg);
+    background-size: 100%;
+    background-color: #2c2c2c;
+    width: 100%;
+    -moz-box-shadow:    inset 0 0 20px rgba(0,0,0,0.25);
+    -webkit-box-shadow: inset 0 0 20px rgba(0,0,0,0.25);
+    box-shadow:         inset 0 0 20px rgba(0,0,0,0.25);
+}
+
+.background-title {
+    position: absolute;
+    width: 100%;
+    height: 340px;
+    margin-top: -40px;
+    background: url(../Images/header-5.png);
+    background-position: center;
+    min-width: 1165px;
+}
+
+.background-title-bottom {
+    position: absolute;
+    width: 100%;
+    height: 280px;
+    margin-top: -50px;
+    background: url(../Images/header-6.png);
+    background-position: center;
+    min-width: 1165px;
+}
+
+
+/**
+.background-title {
+    width: 100%;
+    min-width: 1165px;
+    z-index: 0;
+    margin-top: -40px;
+}
+.background-title img {
+    -webkit-transform:translatez(0);
+    width: 90px;
+    position: absolute;
+    display: block;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: -2;
+}
+.background-title {
+    position: absolute;
+    width: 100%; 
+    z-index: -50;
+    opacity: .3;
+    
+}
+.background-title img {
+    -webkit-transform:translatez(0);
+    width: 110%; 
+    margin-left: -50px; 
+    margin-right: 20px; 
+    margin-top: -20px;
+    -webkit-filter: blur(4px); 
+    -moz-filter: blur(4px); 
+    -o-filter: blur(4px); 
+    -ms-filter: blur(4px); 
+    filter: blur(4px);
+}
+**/
+
+.background2 {   
+    -webkit-transform:translatez(0);
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 1200px;
+    margin-top: -90px;
+    z-index: -50;
+    opacity: .3;
+    min-width: 1165px;
+}
+
+.background2 img {
+    -webkit-transform:translatez(0);
+    width: 117%; 
+    margin-left: -50px; 
+    margin-right: 20px; 
+    margin-top: -150px;
+    -webkit-filter: blur(8px); 
+    -moz-filter: blur(8px); 
+    -o-filter: blur(8px); 
+    -ms-filter: blur(8px); 
+    filter: blur(8px);
+    min-width: 1400px;
+}
+
+
+.background4 {
+    -webkit-transform:translatez(0);
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 1200px;
+    margin-top: 0px;
+    z-index: -50;
+    opacity: .4;
+    min-width: 1165px;
+}
+
+.background4 img {
+    -webkit-transform:translatez(0);
+    width: 107%; 
+    margin-left: -60px; 
+    margin-right: 20px; 
+    margin-top: -35px;
+    -webkit-filter: blur(8px); 
+    -moz-filter: blur(8px); 
+    -o-filter: blur(8px); 
+    -ms-filter: blur(8px); 
+    filter: blur(8px);
+    min-width: 1400px;
+}
+
+.background6 {
+    -webkit-transform:translatez(0);
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 1000px;
+    margin-top: -90px;
+    z-index: -50;
+    opacity: .3;
+    min-width: 1165px;
+}
+
+.background6 img {
+    -webkit-transform:translatez(0);
+    width: 107%; 
+    margin-left: -20px; 
+    margin-top: -130px;
+    -webkit-filter: blur(8px); 
+    -moz-filter: blur(8px); 
+    -o-filter: blur(8px); 
+    -ms-filter: blur(8px); 
+    filter: blur(8px);
+    min-width: 1400px;
+}
+
+.background8 {
+    -webkit-transform:translatez(0);
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 1200px;
+    margin-top: -90px;
+    z-index: -50;
+    opacity: .3;
+    min-width: 1165px;
+}
+
+.background8 img {
+    -webkit-transform:translatez(0);
+    width: 112%; 
+    margin-left: -90px; 
+    margin-right: 20px;
+    margin-top: -30px;
+    -webkit-filter: blur(8px); 
+    -moz-filter: blur(8px); 
+    -o-filter: blur(8px); 
+    -ms-filter: blur(8px); 
+    filter: blur(8px);
+    min-width: 1400px;
+}
