@@ -51,7 +51,7 @@ body {
 .background-title-bottom {
     position: absolute;
     width: 100%;
-    height: 280px;
+    height: 260px;
     margin-top: -50px;
     background: url(../Images/header-6.png);
     background-position: center;
