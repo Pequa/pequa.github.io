@@ -12,13 +12,13 @@
 
     function init() {
 
-        var menu = document.getElementById( 'bt-menu' ),
-        trigger = menu.querySelector( 'a.bt-menu-trigger' ),
+        var menu = document.getElementById( 'navigation' ),
+        trigger = menu.querySelector( 'a.navigation-trigger' ),
         // event type (if mobile use touch events)
         eventtype = mobilecheck() ? 'touchstart' : 'click',
         resetMenu = function() {
-            classie.remove( menu, 'bt-menu-open' );
-            classie.add( menu, 'bt-menu-close' );
+            classie.remove( menu, 'navigation-open' );
+            classie.add( menu, 'navigation-close' );
         },
         closeClickFn = function( ev ) {
             resetMenu();
@@ -26,18 +26,18 @@
         };
 
         var overlay = document.createElement('div');
-        overlay.className = 'bt-overlay';
+        overlay.className = 'nav-overlay';
         menu.appendChild( overlay );
 
         trigger.addEventListener( eventtype, function( ev ) {
             ev.stopPropagation();
             ev.preventDefault();
 
-            if ( classie.has( menu, 'bt-menu-open' ) ) {
+            if ( classie.has( menu, 'navigation-open' ) ) {
                 resetMenu();
             } else {
-                classie.remove( menu, 'bt-menu-close' );
-                classie.add( menu, 'bt-menu-open' );
+                classie.remove( menu, 'navigation-close' );
+                classie.add( menu, 'navigation-open' );
                 overlay.addEventListener( eventtype, closeClickFn );
             }
         });
@@ -47,8 +47,8 @@
                 ev.stopPropagation();
                 ev.preventDefault();
 
-                classie.remove( menu, 'bt-menu-close' );
-                classie.add( menu, 'bt-menu-open' );
+                classie.remove( menu, 'navigation-close' );
+                classie.add( menu, 'navigation-open' );
                 overlay.addEventListener( eventtype, closeClickFn );
             });
         }
