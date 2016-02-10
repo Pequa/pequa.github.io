@@ -1,8 +1,7 @@
 @font-face {
     font-family: Norwester;
-    src: url(home/Fonts/norwester.otf);
+    src: url(../Fonts/norwester.otf);
 }
-
 
 .welcome2 {
 	 background: url(../Images/bg5.jpg) repeat;
