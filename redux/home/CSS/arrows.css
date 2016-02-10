@@ -1,0 +1,65 @@
+/****(HTML is grouped in with the menu)****/
+
+.arrow-menu img {   
+	position: fixed;
+	display: block;
+    margin-left: 41%;
+    bottom: 40px;
+	width: 70px;
+	z-index: 10001; 
+}
+
+.arrow-scroll img {   
+	position: fixed;
+	display: block;
+    margin-left: 2%;
+    bottom: 40px;
+	width: 65px; 
+}
+
+.animated2 {
+  -webkit-animation-duration: 4.5s;
+          animation-duration: 4.5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 4.5s;
+          animation-delay: 4.5s;
+}
+
+.animated2.infinite {
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  
+  35% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+	
+   35% {
+    opacity: 1;
+  }
+  	
+  100% {
+    opacity: 0;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+}

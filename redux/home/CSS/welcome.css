@@ -1,0 +1,173 @@
+@font-face {
+    font-family: Norwester;
+    src: url(home/fonts/norwester.otf);
+}
+
+.welcome2 {
+	 background: url(../Images/bg5.jpg) repeat;
+	 background-position: 0px 0px;
+	 background-attachment: scroll;
+     /*-webkit-transform:translatez(0);*/
+	 background-size: 100%;
+	 height: 760px; 
+     width: 100%; 
+     max-width: 2560px;
+     position: relative; 
+     margin-bottom: -7px;
+}
+
+.logo img {   
+	position: relative;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    padding-top: 220px;
+	width: 190px; 
+}
+
+.title-top h2 {
+	position: relative;
+	display: block;
+	font-weight: 600;
+	font-size: 4.25em;
+	font-family: 'Norwester', Arial, sans-serif;
+	letter-spacing: 4px;
+	color: #232323; 
+	top: 0px;
+	text-align: center;
+	margin-left: auto;
+  	margin-bottom: auto;
+  	margin-top: -11px;
+  	padding-left: 2px;
+}
+
+.title-bottom h2 {
+	position: relative;
+	display: block;
+	font-weight: 300;
+	font-size: 1.3em;
+	font-family: 'Norwester', Arial, sans-serif;
+	letter-spacing: 14px;
+	color: #232323; 
+	top: 0px;
+	text-align: center;
+	margin-left: auto;
+  	margin-bottom: auto;
+  	margin-top: 5px;
+  	padding-left: 11px;
+}
+
+hr {
+   position: relative;
+   border: solid #232323;
+   border-width: 1px;
+   opacity: 0;
+   width: 0px;
+   margin-top: 0px;
+   margin-left: auto;
+   margin-bottom: auto;
+   z-index: 10;
+}
+
+ .line {
+    -webkit-animation: lineexpand 1.8s;
+    animation: lineexpand 1.8s;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes lineexpand {
+    from {width: 0px; opacity: 0;}
+    to {width: 478px; opacity: 1;}
+}
+
+@keyframes lineexpand {
+    from {width: 0px; opacity: 0;}
+    to {width: 478px; opacity: 1;}
+} 
+
+/*******************/
+
+.animated {
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 12px, 0);
+            transform: translate3d(0, 12px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 12px, 0);
+            transform: translate3d(0, 12px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+          animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -12px, 0);
+            transform: translate3d(0, -12px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -12px, 0);
+            transform: translate3d(0, -12px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+}
+
+/*******************/
