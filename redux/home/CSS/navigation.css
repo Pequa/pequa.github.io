@@ -1,4 +1,9 @@
 
+@font-face {
+    font-family: Norwester;
+    src: url(home/Fonts/norwester.otf);
+}
+
 body {
     margin-top: 0px;
     margin-right: 0px;

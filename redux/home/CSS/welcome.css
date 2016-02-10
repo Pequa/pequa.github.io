@@ -25,7 +25,6 @@ html, body, {
 	position: relative;
 	display: block;
     padding-top: 290px;
-	font-weight: 600;
 	font-size: 5.1em;
 	font-family: 'Norwester', Arial, sans-serif;
 	letter-spacing: 0px;
@@ -40,9 +39,9 @@ html, body, {
 .title-bottom h2 {
 	position: relative;
 	display: block;
-	font-weight: 200;
 	font-size: 2.2em;
-	font-family: 'Roboto-Thin', Arial, sans-serif;
+	font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 300;
 	letter-spacing: 3px;
 	color: #fff; 
 	top: 0px;
