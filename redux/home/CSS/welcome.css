@@ -9,12 +9,45 @@ html, body, {
 	border: 0;
 }
 
+/************/
+
+.clear {
+    background: url(../Images/bg.jpg);
+}
+
+.blur {
+    background: url(../Images/bg-blur.jpg);
+}
 
 .background {
-	 background: url(../Images/bg.jpg);
-	 background-attachment: scroll;
-     background-size: cover;
-	 height: 760px; 
+  position: relative;
+  width: 100%;
+  height: 330px;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+.background > div {
+  position: fixed;
+  width: 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.blur {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+
+/************/
+
+.title {
+	 height: 2080px; 
      width: 100%; 
      max-width: 2560px;
      position: relative; 
@@ -24,7 +57,6 @@ html, body, {
 .title-top h2 {
 	position: relative;
 	display: block;
-    padding-top: 290px;
 	font-size: 5.1em;
 	font-family: 'Norwester', Arial, sans-serif;
 	letter-spacing: 0px;
