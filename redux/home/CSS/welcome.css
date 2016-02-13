@@ -41,12 +41,13 @@ html, body, {
 
 /************/
 
-.background > div @media only screen 
+@media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
   
+  .background > div {
   position: fixed;
   width: 100%;
   height: 1400px;
@@ -54,15 +55,17 @@ html, body, {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  background-position: center center;  
+  background-position: center center; 
+  }      
 }
 
-.background > div @media only screen 
+@media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-      
+  
+  .background > div {
   position: fixed;
   width: 100%;
   height: 1100px;
@@ -70,7 +73,8 @@ html, body, {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  background-position: center center;       
+  background-position: center center; 
+  }      
 }
 
 
