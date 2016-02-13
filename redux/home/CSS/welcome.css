@@ -13,12 +13,10 @@ html, body, {
 
 .clear {
     background: url(../Images/bg.jpg);
-    background-size: cover;
 }
 
 .blur {
     background: url(../Images/bg-blur.jpg);
-    background-size: cover;
 }
 
 .background {
@@ -32,7 +30,7 @@ html, body, {
 .background > div {
   position: fixed;
   width: 100%;
-  height: 900px;
+  height: 1800px;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
