@@ -13,10 +13,12 @@ html, body, {
 
 .clear {
     background: url(../Images/bg.jpg);
+    background-size: cover;
 }
 
 .blur {
     background: url(../Images/bg-blur.jpg);
+    background-size: cover;
 }
 
 .background {
