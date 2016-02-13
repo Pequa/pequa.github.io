@@ -1,0 +1,57 @@
+.aboutme {
+    height: 650px;
+}
+
+.headshot {
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.headshot img {
+    position: relative; 
+    display: block;
+    height: 300px;
+    width: 300px; 
+}
+
+.text {
+    position: relative; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+.text h2 {
+	position: relative;
+	display: block;
+    text-align: center;
+	font-size: 2.0em;
+	font-family: 'Norwester', Arial, sans-serif;
+	color: #fff; 
+    margin-bottom: 15px;
+}
+
+.text p {
+	position: relative;
+	display: block; 
+	text-align: center;
+	font-size: 1.2em;
+	font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 300;
+	color: #fff;
+    margin-top: 0px;
+}
+
+.text hr {
+    width:75px; 
+    opacity: 1; 
+    height: 2px;
+    border: none;
+    background-color: #fff;
+    margin-bottom: 12px;
+}
