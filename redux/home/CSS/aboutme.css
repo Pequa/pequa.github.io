@@ -1,21 +1,20 @@
 .aboutme {
-    height: 650px;
+    height: 570px;
+    background-color:rgba(255, 255, 255, 0.1);
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 80px;
 }
 
-.headshot {
+.aboutme img {
+    position: relative; 
+    display: block;
     border-radius: 50%;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
-    height: 300px;
-}
-
-.headshot img {
-    position: relative; 
-    display: block;
-    height: 300px;
-    width: 300px; 
+    width: 320px;
+    height: 320px;
 }
 
 .text {
