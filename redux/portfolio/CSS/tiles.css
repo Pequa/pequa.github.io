@@ -1,0 +1,276 @@
+@font-face {
+    font-family: Norwester;
+    src: url(../Fonts/norwester.otf);
+}
+
+html, body, {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+/************/
+
+.background {
+  background: url(../Images/bg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100%;
+  height: 900px;
+}
+
+/************/
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  
+  .background > div {
+  position: fixed;
+  width: 100%;
+  height: 1600px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center center; 
+  }      
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  
+  .background > div {
+  position: fixed;
+  width: 100%;
+  height: 1300px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center center; 
+  }      
+}
+
+/************/
+
+.title {
+    height: 150px; 
+    width: 100%; 
+    max-width: 2560px;
+    position: relative; 
+    margin-bottom: -7px;
+    top: 120px;
+}
+
+.title-top h2 {
+	position: relative;
+	display: block;
+	font-size: 2.9em;
+	font-family: 'Norwester', Arial, sans-serif;
+	letter-spacing: 0px;
+	color: #fff; 
+	top: 0px;
+	text-align: center;
+	margin-left: auto;
+  	margin-bottom: auto;
+  	margin-top: -11px;
+}
+
+.title-bottom h2 {
+	position: relative;
+	display: block;
+	font-size: 1.6em;
+	font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 300;
+	letter-spacing: 8px;
+	color: #fff; 
+	top: 0px;
+	text-align: center;
+	margin-left: auto;
+  	margin-bottom: auto;
+  	margin-top: 5px;
+  	padding-left: 3px;
+}
+
+hr {
+   position: relative;
+   border: solid #fff;
+   border-width: 1px;
+   opacity: 0;
+   width: 0px;
+   margin-top: 0px;
+   margin-left: auto;
+   margin-bottom: auto;
+   z-index: 10;
+}
+
+ .line {
+    -webkit-animation: lineexpand 1.8s;
+    animation: lineexpand 1.8s;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes lineexpand {
+    from {width: 0px; opacity: 0;}
+    to {width: 235px; opacity: 1;}
+}
+
+@keyframes lineexpand {
+    from {width: 0px; opacity: 0;}
+    to {width: 235px; opacity: 1;}
+} 
+
+/*******************/
+
+.animated {
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 12px, 0);
+            transform: translate3d(0, 12px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 12px, 0);
+            transform: translate3d(0, 12px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+          animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -12px, 0);
+            transform: translate3d(0, -12px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -12px, 0);
+            transform: translate3d(0, -12px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+}
+
+/*******************/
+
+.grid {
+	position: relative;
+	margin: 0 auto;
+	padding: 0em 2.5em;
+	max-width: 100%;
+	list-style: none;
+	text-align: center;
+	margin-top: 100px;
+    
+}
+
+.tile {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	margin: 3px;
+    margin-bottom: 8px;
+    width: 230px;
+    height: 230px;
+	text-align: center;
+	cursor: pointer;
+    background: rgba(255,255,255,0.5);
+    transition: background 0.3s;
+}
+
+.tile:hover {
+    background: rgba(255,255,255,0.7);
+    -webkit-transition: background 0.3s;
+	transition: background 0.3s;
+}
+
+.tile img {
+	position: absolute;
+	display: block;
+    width: 150px;
+    left: 50%;
+    margin-left: -75px;
+    margin-top: 25px;
+}
+
+.tiletext h2 {
+    font-size: 1.5em;
+	font-weight: 300;
+    font-family: 'Norwester';
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 170px;
+    margin-bottom: 0px;
+}
+
+.tiletext p {
+    font-size: 0.75em;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-family: 'Roboto';
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
