@@ -231,12 +231,13 @@ hr {
     height: 230px;
 	text-align: center;
 	cursor: pointer;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255,255,255,0.6);
     transition: background 0.3s;
+    border-radius: 3px;
 }
 
 .tile:hover {
-    background: rgba(255,255,255,0.7);
+    background: rgba(255,255,255,0.8);
     -webkit-transition: background 0.3s;
 	transition: background 0.3s;
 }
@@ -260,6 +261,8 @@ hr {
     text-transform: uppercase;
     margin-top: 177px;
     margin-bottom: 0px;
+    -webkit-filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.2));
+	filter: url(shadow.svg#drop-shadow);
 }
 
 .tiletext p {
@@ -271,4 +274,6 @@ hr {
     text-transform: uppercase;
     margin-top: -3px;
     margin-bottom: 0px;
+    -webkit-filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.2));
+	filter: url(shadow.svg#drop-shadow);
 }
