@@ -16,6 +16,7 @@
     margin-right: auto;
     width: 320px;
     height: 320px;
+    -webkit-transform: translate3d(0,0,0);
 }
 
 .text {
@@ -24,6 +25,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 550px;
+    -webkit-transform: translate3d(0,0,0);
 }
 
 .text h2 {
@@ -34,6 +36,7 @@
 	font-family: 'Norwester', Arial, sans-serif;
 	color: #fff; 
     margin-bottom: 15px;
+    -webkit-transform: translate3d(0,0,0);
 }
 
 .text p {
@@ -45,6 +48,7 @@
     font-weight: 300;
 	color: #fff;
     margin-top: 0px;
+    -webkit-transform: translate3d(0,0,0);
 }
 
 .text hr {

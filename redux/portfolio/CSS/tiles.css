@@ -63,6 +63,7 @@ html, body, {
     position: relative; 
     margin-bottom: -7px;
     top: 120px;
+    -webkit-transform: translate3d(0,0,0);
 }
 
 .title-top h2 {
@@ -77,6 +78,7 @@ html, body, {
 	margin-left: auto;
   	margin-bottom: auto;
   	margin-top: -11px;
+    -webkit-transform: translate3d(0,0,0);
 }
 
 .title-bottom h2 {
@@ -93,6 +95,7 @@ html, body, {
   	margin-bottom: auto;
   	margin-top: 5px;
   	padding-left: 3px;
+    -webkit-transform: translate3d(0,0,0);
 }
 
 hr {
@@ -105,6 +108,7 @@ hr {
    margin-left: auto;
    margin-bottom: auto;
    z-index: 10;
+   -webkit-transform: translate3d(0,0,0);
 }
 
  .line {
@@ -218,6 +222,7 @@ hr {
 	list-style: none;
 	text-align: center;
 	margin-top: 100px;
+    -webkit-transform: translate3d(0,0,0);
     
 }
 
@@ -234,6 +239,7 @@ hr {
     background: rgba(255,255,255,0.6);
     transition: background 0.3s;
     border-radius: 3px;
+    -webkit-transform: translate3d(0,0,0);
 }
 
 .tile:hover {
