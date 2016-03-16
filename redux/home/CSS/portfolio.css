@@ -52,15 +52,18 @@
 	font-family: 'Norwester', Arial, sans-serif;
 	color: #fff; 
     margin-bottom: 10px;
+    font-weight:normal;
+    -webkit-font-smoothing: antialiased;
 }
 
 .caption p {
 	text-align: center;
 	font-size: 1.2em;
 	font-family: 'Roboto', Arial, sans-serif;
-    font-weight: 300;
 	color: #fff;
     margin-top: 10px;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
 }
 
 .caption span {

@@ -109,6 +109,8 @@ html, body, {
   	margin-bottom: auto;
   	margin-top: -11px;
     -webkit-transform: translate3d(0,0,0);
+    font-weight:normal;
+    -webkit-font-smoothing: antialiased;
 }
 
 .title-bottom h2 {
@@ -116,7 +118,6 @@ html, body, {
 	display: block;
 	font-size: 2.2em;
 	font-family: 'Roboto', Arial, sans-serif;
-    font-weight: 300;
 	letter-spacing: 3px;
 	color: #fff; 
 	top: 0px;
@@ -126,6 +127,8 @@ html, body, {
   	margin-top: 5px;
   	padding-left: 3px;
     -webkit-transform: translate3d(0,0,0);
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
 }
 
 hr {

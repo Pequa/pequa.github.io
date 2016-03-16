@@ -37,6 +37,8 @@
 	color: #fff; 
     margin-bottom: 15px;
     -webkit-transform: translate3d(0,0,0);
+    font-weight:normal;
+    -webkit-font-smoothing: antialiased;
 }
 
 .text p {
@@ -45,10 +47,11 @@
 	text-align: center;
 	font-size: 1.2em;
 	font-family: 'Roboto', Arial, sans-serif;
-    font-weight: 300;
 	color: #fff;
     margin-top: 0px;
     -webkit-transform: translate3d(0,0,0);
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
 }
 
 .text hr {
