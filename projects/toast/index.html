@@ -1,201 +1,147 @@
 <!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
+<html>
+<head>
+    <meta charset="UTF-8">
     <title> Peter Quinn | Toast App </title>
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <link rel="stylesheet" href="CSS/menu.css" />
-    <link rel="stylesheet" href="CSS/slider.css" />
-    <link rel="stylesheet" href="CSS/text.css" />
-    <link rel="stylesheet" href="CSS/images.css" />
-  </head>
+    <link rel="stylesheet" type="text/css" href="CSS/navigation.css" />
+	<link rel="stylesheet" type="text/css" href="CSS/header.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/images.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/slick/slick-theme.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+    
+</head>
   
-  <body>
+<body>
     
-   <div class="background-title"></div>  
-   <div class=text-title>
-   <h1>TOAST</h1> 
-   <br>     
-   <p>The objective for this project was to create a personal or social product that enhanced the wine drinking experience. The personal product would enhance the individual experience through memory making and/or skill building, and the social product would enhance the experience though engagement with others and real-time sharing.
-       <p>
-   </div>
-   
-   <div class=paisley style="margin-top:45px;">
-   <div class=text style="padding-top:55px;">
-   <h3>AN INDIVIDUAL & SOCIAL SOLUTION</h3> 
-   <br>     
-   <p>The project problem was to create either a social product or a personal product that enhanced the wine drinking experience. But after ideating some potential solutions, I realized that the beauty of an app is that it can serve both of those purposes. So I began thinking of what kind of functions an app could have so that it could successfully serve as personal information app as well as a social media app. What resulted was Toast.
-   <p>
-   </div>
-   <div class="images"><img src="Images/wine-icons.png" style="width: 500px;"/></div>  
-   </div> 
-   
-   <div class="background2"><img src="Images/bg-2.jpg" /></div>   
-   <div class=text>
-   <h3>THE WINE CHARM</h3> 
-   <br>     
-   <p>For the social aspect of the app, I didn’t want to limit the app to social media, I wanted to encourage real-world interaction. I had the idea that in social environments, toasting wine glasses is a common practice. In addition, wine charms are also very common in social settings for differentiating wine and expressing individual style. <br><br>
-      So I decided to base the app off of is this: if everyone were to have a "smart" wine charm that could sense when its parent wine glass was being toasted, the charms would be able to talk to each other and record who toasted with who, when, and where. Then, once two glasses were “toasted”, two options would be available: share the toast with friends (socially), or add the toast to your collection (personally). 
-   <p>
-   </div> 
-   <div class="images"><img src="Images/wine-2.png" style="width: 1000px;"/></div>        
-       
-   <div class=paisley>      
-   <div class=text>
-   <h3>THE SOCIAL EXPERIENCE</h3> 
-   <br>     
-   <p>Once the toasts were logged, if you chose to share the toast friends, the app would take the information gathered from the toast and translate it into a Facebook status. This would give you the opportunity to share the experience that you’re having with friends, telling them what you are doing, where, and with whom.
-       <p>
-   </div> 
-   <div class="images"><img src="Images/wine-3.png" style="width: 1000px;"/></div>        
-   </div>
+    <div class='header'>
+    <h2>TOAST</h2>
+    <div class='clear'></div>
+    <div class='blur'></div>    
+    </div>
+          
+    <div class="white" id="short" style="height: 650px;">
+    <div class="images"><img src="Images/toast-1.png" style="width: 450px;"></div> 
+    <div class="text">    
+    <h2>AN INDIVIDUAL & SOCIAL SOLUTION</h2>
+    <hr>
+    <p>The project problem was to create either a social product or a personal product that enhanced the wine drinking experience. But after ideating some potential solutions, I realized that the beauty of an app is that it can serve both of those purposes. What resulted was Toast.</p>    
+    </div>
+    </div>    
     
-   <div class="background4"><img src="Images/bg-4.jpg" /></div>      
-   <div class=text>
-   <h3>THE PERSONAL EXPERIENCE</h3> 
-   <br>     
-   <p>Say, however, you did not want to share the event with friends, but you wanted to remember what kind of wine you were drinking and how you liked it. Then, you could use Toast to take a picture of the label, from which it would log the wine name, vintage year, and time you had it. The app would then prompt you for a rating, and log that along with the wine information to create a unique, personal wine history.
-       <p>
-   </div> 
-   <div class="images"><img src="Images/wine-4.png" style="width: 1000px;"/></div>  
-   
-   <div class=paisley>       
-   <div class=text>
-   <h3>DATA IS BEAUTIFUL</h3> 
-   <br>     
-   <p>With all the information about the wine stored, as well as your opinion on it, the app would then able to show you data about your preferences on wine, and then make recommendations on other wines you might like. This information would help you become in tune to your preferences, and help guide you towards wine that is best suited for you.
-       <p>
-   </div>
-   <div class="images"><img src="Images/wine-5.png" style="width: 1000px;"/></div>  
-   </div>
-   
-   <div class="background6"><img src="Images/bg-6.jpg" /></div>   
-   <div class=text>
-   <h3>BRINGING IT ALL TOGETHER</h3> 
-   <br>     
-   <p>Below is a map of the functions of Toast, showing how both the social and personal solutions are integrated into the functions of the app. When a toast is sensed, you can choose to share the Who, What and Where of the toast with the world, save the information about the wine to your log for recommendations, or both.
-       <p>
-   </div> 
-   <div class="images"><img src="Images/wine-6.png" style="width: 1000px;"/></div>  
-       
-   <div class=paisley2> 
-   <div class=text>    
-   <h3>TOAST</h3> 
-   </div>   
-        
-   <!-- Enable MaxWidth Switching -->
-	<input checked type=radio name=respond id=desktop />
-	<input type=radio name=respond id=tablet />
-	<input type=radio name=respond id=mobile />
-	
-	<article id=slider>
-		<!-- MaxWidth Options -->
-		<div class=respond>
-			<label class=desktop for=desktop></label>
-			<label class=tablet for=tablet></label>
-			<label class=mobile for=mobile></label>
-		</div> <!-- .respond -->
-		
-		<!-- Slider Setup -->
-		<input checked type=radio name=slider id=slide1 />
-		<input type=radio name=slider id=slide2 />
-		<input type=radio name=slider id=slide3 />
-		<input type=radio name=slider id=slide4 />
-		<input type=radio name=slider id=slide5 />
-        <input type=radio name=slider id=slide6 />
-        <input type=radio name=slider id=slide7 />
-        <input type=radio name=slider id=slide8 />
-	
-		<!-- The Slider -->
-		<div id=slides>
-			<div id=overflow>
-				<div class=inner>
-					<article>
-                        <div class=info></div>
-						<img src=Images/photo-1.png style="width: 40%;"/>
-					</article>
-					<article>
-                        <div class=info></div>
-						<img src=Images/photo-2.png style="width: 40%;"/>
-					</article>
-					<article>
-                        <div class=info></div>
-						<img src=Images/photo-3.png style="width: 40%;"/>
-					</article>
-                    <article>
-                        <div class=info></div>
-						<img src=Images/photo-4.png style="width: 40%;"/>
-					</article>
-					<article>
-                        <div class=info></div>
-						<img src=Images/photo-5.png style="width: 40%;"/>
-					</article>
-                    <article>
-                        <div class=info></div>
-						<img src=Images/photo-6.png style="width: 40%;"/>
-					</article>
-                    <article>
-                        <div class=info></div>
-						<img src=Images/photo-7.png style="width: 40%;"/>
-					</article>
-                    <article>
-                        <div class=info></div>
-						<img src=Images/photo-8.png style="width: 40%;"/>
-					</article>
-				</div> <!-- .inner -->
-			</div> <!-- #overflow -->
-		</div> <!-- #slides -->
-	
-		<!-- Controls and Active Slide Display -->
-		<div id=controls>
-			<label for=slide1></label>
-			<label for=slide2></label>
-			<label for=slide3></label>
-			<label for=slide4></label>
-			<label for=slide5></label>
-            <label for=slide6></label>
-            <label for=slide7></label>
-            <label for=slide8></label>
-		</div> <!-- #controls -->
-		
-		<div id=active>
-			<label for=slide1></label>
-			<label for=slide2></label>
-			<label for=slide3></label>
-			<label for=slide4></label>
-			<label for=slide5></label>
-            <label for=slide6></label>
-            <label for=slide7></label>
-            <label for=slide8></label>
-		</div> <!-- #active -->
-	</article> <!-- #slider -->
+    <div class="grey" id="tall" style="height: 1090px;">
+    <div class="images"><img src="Images/toast-2.png"></div> 
+    <div class="text">    
+    <h2>THE WINE CHARM</h2>
+    <hr>
+    <p>For the social aspect of the app, I didn’t want to limit the app to social media, I wanted to encourage real-world interaction. I had the idea that in social environments, toasting wine glasses is a common practice. In addition, wine charms are also very common in social settings for differentiating wine and expressing individual style. 
+    <br><br>
+So I decided to base the app off of is this: if everyone were to have a "smart" wine charm that could sense when its parent wine glass was being toasted, the charms would be able to talk to each other and record who toasted with who, when, and where. Then, once two glasses were “toasted”, two options would be available: share the toast with friends (socially), or add the toast to your collection (personally).</p>    
+    </div>
     </div>
     
-   <div class="background-title-bottom" style="margin-top:-55px;"></div>
-   <div class=text-title style="padding-top:20px;">
-   <br>     
-   <p>The app received positive feedback at the final presentation of the mini-project, including positive feedback from a liquor store owner and wine enthusiast, who said that an app like this would definitely be appreciated in the wine drinking community. Personally, I was very pleased with how it turned out, and would love to actually build and produce Toast one day.
-       <p>
-   </div>
-      
-   <nav id="bt-menu" class="bt-menu">
-			<a href="#" class="bt-menu-trigger"><span>Menu</span></a>
+    <div class="white" style="height: 980px;">
+    <div class="images"><img src="Images/toast-3.png"></div> 
+    <div class="text">    
+    <h2>THE SOCIAL EXPERIENCE</h2>
+    <hr>
+    <p>Once the toasts were logged, if you choose to share the toast friends, the app would take the information gathered from the toast and translate it into a Facebook status. This would give you the opportunity to share the experience that you’re having with friends, telling them what you are doing, where, and with whom.</p>    
+    </div>
+    </div>
+    
+    <div class="grey" style="height: 1000px;">
+    <div class="images"><img src="Images/toast-4.png"></div> 
+    <div class="text">    
+    <h2>THE PERSONAL EXPERIENCE</h2>
+    <hr>
+    <p>Say, however, you did not want to share the event with friends, but you wanted to remember what kind of wine you were drinking and how you liked it. Then, you could use Toast to take a picture of the label, from which it would log the wine name, vintage year, and when you had it. The app would then prompt you for a rating, and log that along with the wine information to create a unique, personal wine history.</p>    
+    </div>
+    </div>
+    
+    <div class="white" style="height: 985px;">
+    <div class="images"><img src="Images/toast-5.png"></div> 
+    <div class="text">    
+    <h2>DATA IS BEAUTIFUL</h2>
+    <hr>
+    <p>With all the information about the wine stored, as well as your opinion on it, the app would then able to show you data about your preferences on wine, and then make recommendations on other wines you might like. This information would help you become in tune to your preferences, and help guide you towards wine that is best suited for you.</p>    
+    </div>
+    </div>
+    
+    <div class="grey" id="tall" style="height: 1090px;">
+    <div class="images"><img src="Images/toast-6.png" style="width: 1050px;"></div> 
+    <div class="text">    
+    <h2>BRINGING IT ALL TOGETHER</h2>
+    <hr>
+    <p>Above is a map of the functions of Toast, showing how both the social and personal solutions are integrated into the functions of the app. When a toast is sensed, you can choose to share the Who, What and Where of the toast with the world, save the information about the wine to your log for recommendations, or both.</p>    
+    </div>
+    </div>
+    
+    <div class="last">     
+        
+    <div class="wrap">    
+    <div class="slideshow">    
+    <div><img src="Images/photo-1.png"></div>
+    <div><img src="Images/photo-2.png"></div>
+    <div><img src="Images/photo-3.png"></div>
+    <div><img src="Images/photo-4.png"></div>
+    <div><img src="Images/photo-5.png"></div>
+    <div><img src="Images/photo-6.png"></div>
+    <div><img src="Images/photo-7.png"></div>
+    <div><img src="Images/photo-8.png"></div>
+    </div> 
+    </div> 
+        
+    <div class="text"><h3>TOAST</h3>
+    <hr>
+    <p>The app received positive feedback at the final presentation of the mini-project, including positive feedback from a wine enthusiast and business owner, who said that an app like this would definitely be appreciated in the wine drinking community. Personally, I was very pleased with how it turned out, and would love to actually build Toast one day.</p>    
+    </div>    
+    
+    </div>
+    
+     
+    
+    
+    <nav class="navigation" id="navigation">
+			<a href="#" class="navigation-trigger"><img src="Images/logo-dark.png" style="width:75px;"></a>
+            <!-- <div class="arrow-scroll animated2 fadeIn">
+    	    <img src="home/Images/arrow-scroll.png"/>
+    	    </div>
+            <div class="arrow-menu animated2 fadeIn">
+    	    <img src="home/Images/arrow-menu.png"/>
+    	    </div> -->
 			<ul>
 				<div class="menu-main">
-				<li style="margin: 0 90px 0 0 !important;" ><a href="../../index.html#aboutme" class="bt-icon icon-user-outline">About Me</a></li>
-				<li style="margin: 0 80px 0 0 !important;" ><a href="../../index.html#skillset" class="bt-icon icon-windows">Skillset</a></li>
-				<li style="margin: 0 195px 0 0 !important;" ><a href="../../index.html#experience" class="bt-icon icon-windows">Experience</a></li>
-				<li style="margin: 0 100px 0 0 !important;" ><a href="../../portfolio/index.html" class="bt-icon icon-star">Portfolio</a></li>
-				<li style="margin: 0 70px 0 0 !important;" ><a href="../../home/resume.pdf" class="bt-icon icon-bubble">Resume</a></li>
-				<li style="margin: 0 5px 0 0 !important;" ><a href="../../index.html#contact" class="bt-icon icon-speaker">Contact</a></li>
+				<li class="one" style="padding: 0px 0px;" ><a href="../../index.html#aboutme" >About Me</a></li>
+                <li class="two" style="padding: 0px 0px;" ><a href="../../index.html#contact" >Contact</a></li>
+				<li class="three" style="padding: 0px 0px;" ><a href="../../portfolio/index.html" >Portfolio</a></li>
+				<li class="four" style="padding: 0px 0px;" ><a href="../../peterquinn-resume.pdf" >Resume</a></li>
 				</div>
 			</ul>
-	</nav>      
-      
-  </body>
-
-  <script src="Scripts/borderMenu.js"></script>
-  <script src="Scripts/classie.js"></script>
-  
+	</nav>   
+    
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="CSS/slick/slick.min.js"></script>
+				
+    
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.slideshow').slick({
+        dots: true,
+        infinite: true,
+        speed: 600,
+        slidesToShow: 1,
+        fade: true,
+        arrows: true,
+        adaptiveHeight: true
+});
+    });
+</script>     
+    
+</body>
+    
+<script src="Scripts/navigation.js"></script>
+<script src="Scripts/classie.js"></script>
+<script src="Scripts/background.js"></script>			
+    
 </html>

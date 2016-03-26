@@ -1,114 +1,139 @@
 <!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-    <meta charset="utf-8" />
+<html>
+<head>
+    <meta charset="UTF-8">
     <title> Peter Quinn | Portfolio </title>
-    <link rel="stylesheet" href="CSS/menu.css" />
-    <link rel="stylesheet" href="CSS/tiles.css" />
-    <link rel="stylesheet" href="CSS/title.css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script src="Scripts/script.js"></script> 
-    <script src="Scripts/modernizr.custom.js"></script>
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" type="text/css" href="CSS/navigation.css" />
+	<link rel="stylesheet" type="text/css" href="CSS/tiles.css" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     
-  </head>
-
-  <body>
-    <div class="content">
-    	  <div class="logo">
-    	  <img src="Images/logo-light.png"/>
-    	  </div>
-    	  
-    	  <div class="title-top animated fadeInDown"><h2>PETER QUINN</h2></div>
-          <hr class="line">
-          <div class="title-bottom animated fadeInUp"><h2>PORTFOLIO</h2></div>
+</head>
+  
+<body>
+    
+    <div class='background'></div>
+      
+    <div class="title" id="portfolio">
+        <div class="title-top animated fadeInDown"><h2>PETER QUINN</h2></div>
+        <hr class="line">
+        <div class="title-bottom animated fadeInUp"><h2>PORTFOLIO</h2></div> 
+    </div>
           
-				<div class="grid">
-					<figure class="effect-ruby2">
-						<img src="Images/garden-temp.jpg" alt="img13"/>
-						<figcaption>
-							<h2>Vertical &nbsp;<span>Garden</span></h2>
-							<p>School Project</p>
-							<a href="#">View more</a>
-						</figcaption>			
-					</figure>
-					<figure class="effect-ruby2">
-						<img src="Images/handrake.jpg" alt="img14"/>
-						<figcaption>
-							<h2>Hand &nbsp;<span>Rake</span></h2>
-							<p>School Project</p>
-							<a href="../projects/handrake/index.html">View more</a>
-						</figcaption>			
-					</figure>
-					<figure class="effect-ruby2">
-						<img src="Images/chair.jpg" alt="img13"/>
-						<figcaption>
-							<h2>Bespoke<span> Chair</span></h2>
-							<p>School Project</p>
-							<a href="../projects/bespokechair/index.html">View more</a>
-						</figcaption>			
-					</figure>
-					<figure class="effect-ruby2">
-						<img src="Images/watch-temp.jpg" alt="img14"/>
-						<figcaption>
-							<h2>Smart &nbsp;<span>Watch</span></h2>
-							<p>School Project</p>
-							<a href="#">View more</a>
-						</figcaption>			
-					</figure>
-                    <figure class="effect-ruby2">
-						<img src="Images/toast.jpg" alt="img13"/>
-						<figcaption>
-							<h2>Toast &nbsp;<span>App</span></h2>
-							<p>School Project</p>
-							<a href="../projects/toast/index.html">View more</a>
-						</figcaption>			
-					</figure>
-					<figure class="effect-ruby3">
-						<img src="Images/phoenix.jpg" alt="img14"/>
-						<figcaption>
-							<h2>Phoenix &nbsp;<span>DIRECT</span></h2>
-							<p>Work Projects</p>
-							<a href="../projects/phoenixdirect/index.html">View more</a>
-						</figcaption>			
-					</figure>
-					<figure class="effect-ruby">
-						<img src="Images/dollar.jpg" alt="img13"/>
-						<figcaption>
-							<h2>Dollar &nbsp;<span>Concrete</span></h2>
-							<p>Freelance Web Design</p>
-							<a href="../projects/dollarconcrete/index.html">View more</a>
-						</figcaption>			
-					</figure>
-					<figure class="effect-ruby4">
-						<img src="Images/photography-temp.jpg" alt="img14"/>
-						<figcaption>
-							<h2>Photography</h2>
-							<p>Hobby</p>
-							<a href="#">View more</a>
-						</figcaption>			
-					</figure>
-				</div>
-	</div>
+	<div class="grid">
+        
+        <a href="../projects/handrake/index.html">
+        <div class="tile">
+            <img src="Images/rake.png"/>
+            <div class="tiletext">
+                <h2>Ergonomic Rake</span></h2>
+				<p>School Project</p>
+            </div>		
+        </div></a>
+    
+        <a href="../projects/bespokechair/index.html">
+		<div class="tile">
+            <img src="Images/chair.png"/>
+            <div class="tiletext">
+                <h2>Bespoke Chair</span></h2>
+				<p>School Project</p>
+            </div>		
+            </div></a>
+    
+        <a href="../projects/myto/index.html">
+        <div class="tile">
+            <img src="Images/ring.png"/>
+            <div class="tiletext">
+                <h2>Myto Ring</span></h2>
+				<p>School Project</p>
+            </div>		
+            </div></a>
 
-    <div class="container">
-        <nav id="bt-menu" class="bt-menu">
-				<a href="#" class="bt-menu-trigger"><span>Menu</span></a>
-				<ul>
-					<div class="menu-main">
-					<li style="margin: 0 90px 0 0 !important;" ><a href="../index.html#aboutme" class="bt-icon icon-user-outline">About Me</a></li>
-					<li style="margin: 0 80px 0 0 !important;" ><a href="../index.html#skillset" class="bt-icon icon-windows">Skillset</a></li>
-					<li style="margin: 0 195px 0 0 !important;" ><a href="../index.html#experience" class="bt-icon icon-windows">Experience</a></li>
-					<li style="margin: 0 100px 0 0 !important;" ><a href="" class="bt-icon icon-star">Portfolio</a></li>
-					<li style="margin: 0 70px 0 0 !important;" ><a href="../home/resume.pdf" class="bt-icon icon-bubble">Resume</a></li>
-					<li style="margin: 0 5px 0 0 !important;" ><a href="../index.html#contact" class="bt-icon icon-speaker">Contact</a></li>
-					</div>
-				</ul>
-		</nav>
-	</div>
+        <a href="../projects/toast/index.html">
+        <div class="tile">
+            <img src="Images/toast.png"/>
+            <div class="tiletext">
+                <h2>Toast App</span></h2>
+				<p>School Project</p>
+            </div>		
+            </div></a>
+
+        <div class="tile">
+            <img src="Images/glimpse.png"/>
+            <div class="tiletext">
+                <h2>Glimpse App</span></h2>
+				<h3>COMING SOON</h3>
+            </div>		
+        </div>
+
+        <a href="../projects/phoenixdirect/index.html">
+        <div class="tile">
+            <img src="Images/phoenix.png"/>
+            <div class="tiletext">
+                <h2>Phoenix Direct</span></h2>
+				<p>Work Projects</p>
+            </div>
+            </div></a>
+
+        <a href="../projects/dollarconcrete/index.html">
+        <div class="tile">
+            <img src="Images/dollar.png"/>
+            <div class="tiletext">
+                <h2>Dollar Concrete</span></h2>
+				<p>Freelance Project</p>
+            </div>		
+            </div></a>
+
+        <a href="../projects/greenco/index.html">
+        <div class="tile">
+            <img src="Images/green.png"/>
+            <div class="tiletext">
+                <h2>Green Properties</span></h2>
+				<p>Freelance Project</p>
+            </div>		
+            </div></a>
+
+        <a href="../projects/photography/index.html">
+        <div class="tile">
+            <img src="Images/photography.png"/>
+            <div class="tiletext">
+                <h2>Photography</span></h2>
+				<p>Hobby</p>
+            </div>		
+            </div></a>
+
+        <div class="tile">
+            <img src="Images/models.png"/>
+            <div class="tiletext">
+                <h2>Digital Models</span></h2>
+				<h3>COMING SOON</h3>
+            </div>		
+        </div>
+        
+    </div>
+        
+    <nav class="navigation" id="navigation">
+			<a href="#" class="navigation-trigger"><img src="Images/logo-dark.png" style="width:75px;"></a>
+            <!-- <div class="arrow-scroll animated2 fadeIn">
+    	    <img src="home/Images/arrow-scroll.png"/>
+    	    </div>
+            <div class="arrow-menu animated2 fadeIn">
+    	    <img src="home/Images/arrow-menu.png"/>
+    	    </div> -->
+			<ul>
+				<div class="menu-main">
+				<li class="one" style="padding: 0px 0px;" ><a href="../index.html#aboutme" >About Me</a></li>
+                <li class="two" style="padding: 0px 0px;" ><a href="../index.html#contact" >Contact</a></li>
+				<li class="three" style="padding: 0px 0px;" ><a href="#portfolio" >Portfolio</a></li>
+				<li class="four" style="padding: 0px 0px;" ><a href="../peterquinn-resume.pdf" >Resume</a></li>
+				</div>
+			</ul>
+	</nav>
 	
-  </body>
-  <script src="Scripts/classie.js"></script>
-  <script src="Scripts/borderMenu.js"></script>
+</body>
+    
+<script src="Scripts/navigation.js"></script>
+<script src="Scripts/classie.js"></script>
+<script src="Scripts/background.js"></script>
+    
 </html>

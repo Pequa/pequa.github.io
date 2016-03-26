@@ -1,63 +1,64 @@
-body {
-	-webkit-font-smoothing: antialiased;
-}
- 
-h1, h2, h3, h4, h5 {
-	-webkit-font-smoothing: antialiased;
-}
-
-
-/***** GREYSCALE HOVER  *****/
-
-.greyscale { /* Universal settings */
-    -webkit-transition:all .5s;
-    -moz-transition:all .5s;
-    -ms-transition:all .5s;
-    -o-transition:all .5s;
-    transition:all .5s;
+.aboutme {
+    height: 580px;
+    background-color:rgba(255, 255, 255, 0.1);
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 80px;
+    border-radius: 3px;
 }
 
-.greyscale:not(:hover) {
-    -webkit-filter:grayscale(100%);
-    -moz-filter:grayscale(100%);
-    -ms-filter:grayscale(100%);
-    -o-filter:grayscale(100%);
-    filter:grayscale(100%);
+.aboutme img {
+    position: relative; 
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    height: 320px;
+    -webkit-transform: translate3d(0,0,0);
 }
 
-greyscale:hover {
-    -webkit-filter:grayscale(0%);
-    -moz-filter:grayscale(0%);
-    -ms-filter:grayscale(0%);
-    -o-filter:grayscale(0%);
-    filter:grayscale(0%);
+.text {
+    position: relative; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+    -webkit-transform: translate3d(0,0,0);
 }
-/*******************************/
 
-.text0 h3 {
-	text-decoration: none;
-	font-weight: 200;
-	font-size: 2.4em;
-	font-family: 'Lato', Arial, sans-serif;
-	letter-spacing: 4px;
+.text h2 {
+	position: relative;
+	display: block;
+    text-align: center;
+	font-size: 2.0em;
+	font-family: 'Norwester', Arial, sans-serif;
 	color: #fff; 
-	top: 150px;
+    margin-bottom: 15px;
+    -webkit-transform: translate3d(0,0,0);
+    font-weight:normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+.text p {
+	position: relative;
+	display: block; 
 	text-align: center;
-	padding-top: 110px;
-	margin-left: 45%;
-  	margin-right: 1%;
-    
+	font-size: 1.2em;
+	font-family: 'Roboto', Arial, sans-serif;
+	color: #fff;
+    margin-top: 0px;
+    -webkit-transform: translate3d(0,0,0);
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
 }
 
-.text0 p {
-	text-decoration: none;
-	font-weight: 200;
-	font-size: 1.4em;
-	font-family: 'Lato', Arial, sans-serif;
-	color: #fff; 
-	top: 150px;
-	text-align: justify;
-	padding-top: 40px;
-	margin-left: 53%;
-  	margin-right: 9%;
+.text hr {
+    width:75px; 
+    opacity: 1; 
+    height: 2px;
+    border: none;
+    background-color: #fff;
+    margin-bottom: 12px;
 }
