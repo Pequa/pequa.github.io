@@ -11,6 +11,10 @@ html, body, {
 
 /************/
 
+body {
+    background-color: #363636;
+}
+
 .background {
   background: url(../Images/bg2.jpg);
   background-size: cover;

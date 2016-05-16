@@ -19,6 +19,10 @@ html, body, {
     background: url(../Images/bg-blur.jpg);
 }
 
+body {
+    background-color: #363636;
+}
+
 .background {
   position: relative;
   width: 100%;
