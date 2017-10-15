@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+
+    Options +FollowSymlinks
+    RewriteEngine On
+
+    RewriteBase /
+    RewriteCond %{HTTP:Cookie} devicePixelRatio [NC]
+    RewriteRule \.(?:jpe?g|gif|png|bmp)$ /retinaimages.php [NC,L]
+
+</IfModule>
