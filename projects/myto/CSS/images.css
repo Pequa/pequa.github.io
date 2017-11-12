@@ -45,7 +45,8 @@
     margin-right: auto;
     -webkit-transform: translate3d(0,0,0);
     -webkit-filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.15));
-	filter: url(shadow.svg#drop-shadow);
+	filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.15));
+	/* filter: url(shadow.svg#drop-shadow); */
 }
 
 .text {
@@ -111,7 +112,8 @@
 	width: 800px;
     -webkit-transform: translate3d(0,0,0);
     -webkit-filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.15));
-	filter: url(shadow.svg#drop-shadow);
+	filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.15));
+	/* filter: url(shadow.svg#drop-shadow); */
     margin-bottom: 20px;
 }
 
