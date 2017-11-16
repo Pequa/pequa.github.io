@@ -73,11 +73,11 @@
     text-align: center;
     margin-left: 0px;
     margin-right: 0px;
-    width: 220px;
+    width: 205px;
 }
 
 .tile img {
-    width: 200px;
+    width: 185px;
     margin: 0px;
     -webkit-filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.15));
     border-radius: 3px;
