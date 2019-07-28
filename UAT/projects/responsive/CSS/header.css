@@ -1,0 +1,38 @@
+html, body, {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+body {
+    background-color: #333;
+}
+
+.header {
+    height: 14vw;
+    padding-top: 75px;
+    display: flex;
+    align-items: center;
+    z-index: -1;
+    background-image: url(../Images/header-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: top;
+	box-shadow: inset 0px 0px 40px rgba(0,0,0,0.15); 
+}
+
+.header img {
+    width: 15vw;
+    margin-right: 5%;
+}
+
+.header h2 {
+    width: 95%;
+    margin-left: 5%;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 3.0em;
+    font-weight: 800;
+    color: #fff; 
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+}

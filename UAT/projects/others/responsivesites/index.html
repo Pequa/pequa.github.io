@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Peter Quinn | Responsive Sites </title>
+    <link rel="stylesheet" type="text/css" href="CSS/navigation.css" />
+	<link rel="stylesheet" type="text/css" href="CSS/header.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/images.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/slick/slick-theme.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+    
+</head>
+  
+<body>
+    
+    <div class='header'>
+    <h2>RESPONSIVE SITES</h2>
+    <div class='clear'></div>
+    <div class='blur'></div>    
+    </div>
+          
+    <div class="white" id="tall" style="height: 1010px;">
+    <div class="images">
+    <img src="Images/responsivesites-2.png"></div> 
+    <div class="text">    
+    <h2>UTILIZING THE PLATFORM</h2>
+    <hr>
+    <p>When our company built our third-generation platform, one of the driving factors was that it needed to be built on a bootstrap grid so it could be fully responsive and more accessible. We had almost a dozen manufacturers that needed to be ported over to the new platform, so in the interest of time, most of the sites that were ported over did not get a full responsive treatment at the start. They used the new platform, they just didn’t really make use of the new platform’s capabilities. Now that we’re making a second pass, Toyota is the first manufacturer that I “re-skinned” to make use of responsive design. </p>    
+    </div>
+    </div>    
+    
+    <div class="last">
+    <div class="images">
+    <a href=https://sketch.cloud/s/DLjOW/all/page-1/toyota-default-page-desktop/play target="_blank"><img src="Images/responsivesites-3.png"></a></div> 
+    <div class="text">    
+    <h3>VIEW THE COMPS</h3>
+    <hr>
+    <p>You can click on the preview of the screens above to view the full comps, however the project is still in development, so only the default page comps have been made so far. I worked with the development team to design things so that they collapse in a logical, efficient way on the default page, and the rest of the site is to come.</p>    
+    </div>
+    </div> 
+    
+    <nav class="navigation" id="navigation">
+			<a href="#" class="navigation-trigger"><img src="Images/logo-dark.png" style="width:75px;"></a>
+            <!-- <div class="arrow-scroll animated2 fadeIn">
+    	    <img src="home/Images/arrow-scroll.png"/>
+    	    </div>
+            <div class="arrow-menu animated2 fadeIn">
+    	    <img src="home/Images/arrow-menu.png"/>
+    	    </div> -->
+			<ul>
+				<div class="menu-main">
+				<li class="one" style="padding: 0px 0px;" ><a href="../../index.html#aboutme" >About Me</a></li>
+                <li class="two" style="padding: 0px 0px;" ><a href="../../index.html#contact" >Contact</a></li>
+				<li class="three" style="padding: 0px 0px;" ><a href="../../portfolio/index.html" >Portfolio</a></li>
+				<li class="four" style="padding: 0px 0px;" ><a href="../../peterquinn-resume.pdf" target="_blank">Resume</a></li>
+				</div>
+			</ul>
+	</nav>   
+    
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="CSS/slick/slick.min.js"></script>
+				
+    
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.slideshow').slick({
+        dots: true,
+        infinite: true,
+        speed: 600,
+        slidesToShow: 1,
+        fade: true,
+        arrows: true,
+        adaptiveHeight: true
+});
+    });
+</script>     
+    
+</body>
+    
+<script src="Scripts/navigation.js"></script>
+<script src="Scripts/classie.js"></script>
+<script src="Scripts/background.js"></script>			
+    
+</html>
