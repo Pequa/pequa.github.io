@@ -103,6 +103,34 @@
 
 /************/
 
+#animated {
+  position: absolute;
+  overflow: hidden;
+}
+
+#animated img {
+  -webkit-animation-name: scrolling;
+  animation-name: scrolling;
+  -webkit-animation-duration: 25s;
+  animation-duration: 25s; 
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes scrolling {
+  0%   {margin-top: 0;}
+  100% {margin-top: -705%;}
+}
+
+@keyframes scrolling {
+  0%   {margin-top: 0;}
+  100% {margin-top: -705%;}
+}
+
+/************/
+
 .slideshow img {
 	width: 320px;
     margin-bottom: 20px;
@@ -110,3 +138,4 @@
     -webkit-filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.15));
 	filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.15));
 }
+

@@ -33,6 +33,10 @@
 	filter: drop-shadow(0px 0px 30px rgba(0,0,0,0.15));
 }
 
+.images video {
+    border-radius: 6px;
+}
+
 .text {
     width: 40%;
 }
