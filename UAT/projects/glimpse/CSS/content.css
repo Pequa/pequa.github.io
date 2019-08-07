@@ -103,6 +103,30 @@
 
 /************/
 
+#glimpse-2 video {
+    margin-right: 70%;
+}
+
+#glimpse-3a video {
+    margin-right: 70%;
+}
+
+#glimpse-3b video {
+    margin-right: 35%; 
+    margin-left: 35%; 
+}
+
+#glimpse-4 video {
+    margin-left: -1%;  
+}
+
+#glimpse-5a video {
+    margin-right: 70%;
+}
+
+
+/************/
+
 .slideshow img {
 	width: 320px;
     margin-bottom: 20px;
