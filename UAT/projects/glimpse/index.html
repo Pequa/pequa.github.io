@@ -49,10 +49,15 @@
     <div class="light" style="height: 35vw;">
     <div class="images">
     <div id="glimpse-3a"><video width="30%" autoplay muted><source src="Images/glimpse-3a.mp4" type="video/mp4"></video>
+    </div>    
+    <div id="glimpse-3b" style="margin-top: -57.6%;"><video id="delay" width="30%" loop muted><source src="Images/glimpse-3b.mp4" type="video/mp4"></video>
     </div>
-    <div id="glimpse-3b" style="margin-top: -57.6%;"><video width="30%" autoplay loop muted><source src="Images/glimpse-3b.mp4" type="video/mp4"></video>
-    </div>
-    <img src="Images/glimpse-3c.png" style="width: 30%; margin-left: 70%; margin-top: -57.6%;"></div> 
+    <img src="Images/glimpse-3c.png" style="width: 30%; margin-left: 70%; margin-top: -57.6%;"></div>
+    <script>
+    setTimeout(function(){
+    document.getElementById("delay").play();
+    }, 3500);
+    </script>  
     <div class="text">    
     <h2>LOREM IPSUM DOLOR SIT AMET</h2>
     <hr>

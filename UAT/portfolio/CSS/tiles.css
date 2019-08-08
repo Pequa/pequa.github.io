@@ -52,8 +52,8 @@ body {
 
 .tile img {
 	position: relative;
-    max-width: 190px;
-    max-height: 140px;
+    max-width: 14vw;
+    max-height: 10vw;
     margin: 0 auto;
     /** -webkit-filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.3)); **/
     /** filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.3)); **/
@@ -72,6 +72,7 @@ body {
 .tiletext h2 {
     display: inline;
     font-size: 1.25em;
+    line-height: 1em;
     font-family: 'Poppins';
     font-weight: 800 !important;
     color: #fff;
@@ -121,12 +122,19 @@ body {
     height: 40%;
 }
 .tile img {
-    width: 156px;
+    max-width: 16vw;
+    max-height: 18vw;
+    
 }
 }
 
 @media only screen and (orientation: portrait) {
 .tile {
     height: 25%;
+}
+.tile img {
+    max-width: 16vw;
+    max-height: 16vw;
+    
 }
 }
