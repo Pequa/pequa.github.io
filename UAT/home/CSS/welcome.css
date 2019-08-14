@@ -51,7 +51,7 @@ body {
   and (orientation: portrait) {
   
   .background {
-  height: 45vh;
+  height: 42vh;
   }
       
   .background > div {

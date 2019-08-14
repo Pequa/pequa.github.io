@@ -1,5 +1,5 @@
 .skillset {
-    height: 760px;
+    height: 800px;
     padding-top: 100px;
 }
 
@@ -107,7 +107,7 @@
 }
 
 .span1 {
-  font-size: 0.95em;
+  font-size: 14px;
   font-family: 'Poppins', Arial, sans-serif;
   font-weight: 600;
   color: #fff;
