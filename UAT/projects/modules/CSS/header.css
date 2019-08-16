@@ -36,3 +36,11 @@ body {
     text-align: left;
     -webkit-font-smoothing: antialiased;
 }
+
+@media only screen 
+  and (max-width: 1150px) {
+.header {
+    height: 20vw;
+    background-size: contain; 
+}
+}

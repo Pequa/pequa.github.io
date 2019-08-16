@@ -84,9 +84,6 @@
 
 @media only screen 
   and (max-width: 1150px) {
-.header {
-    height: 21vw;
-}
 .text {
     padding-left: 5%;
     padding-right: 5%;
