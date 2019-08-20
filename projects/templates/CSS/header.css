@@ -1,78 +1,69 @@
-@font-face {
-    font-family: Norwester;
-    src: url(../Fonts/norwester.otf);
-}
-
 html, body, {
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
-    min-width: 1800px;
 }
 
 body {
-    min-width: 1050px;
-    background-color: #363636;
-}
-
-.title {
-    height: 150px; 
-    width: 100%; 
-    max-width: 2560px;
-    position: relative; 
-    margin-bottom: -7px;
-    top: 120px;
-    -webkit-transform: translate3d(0,0,0);
-}
-
-.header h2 {
-	position: absolute;
-    font-family: 'Norwester', Arial, sans-serif;
-	font-size: 3.6em;
-	color: #fff; 
-	margin-left: 50%;
-    margin-top: 170px;
-  	left: -200px;
-    z-index: 1000;
-    -webkit-transform: translate3d(0,0,0);
-    font-weight:normal;
-    -webkit-font-smoothing: antialiased;
+    background-color: #333;
 }
 
 .header {
-    height: 530px;
-    position: relative;
+    height: 14vw;
+    padding-top: 75px;
+    display: flex;
+    align-items: center;
+    z-index: -1;
+    background-image: url(../Images/header-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: top;
+	box-shadow: inset 0px 0px 40px rgba(0,0,0,0.15); 
 }
 
-.header > div {
-  position: fixed;
-  width: 100%;
-  height: 480px;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  background-position: right 0px;
+.header img {
+    width: 15vw;
+    margin-right: 5%;
 }
 
-.clear {
-    background: url(../Images/templates-bg-alt.jpg);
+.header h2 {
+    width: 95%;
+    margin-left: 5%;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 3.0em;
+    font-weight: 800;
+    color: #fff; 
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
 }
 
-.blur {
-    background: url(../Images/templates-bg-blur-alt.jpg);
+@media only screen 
+and (max-width: 1150px) {
+.header {
+    height: 17vw;
+    background-size: contain; 
+}
+.header h2 {
+    font-size: 2.6em;
+}
 }
 
-@media (max-width: 1050px) {
+@media only screen 
+and (max-device-width : 1380px) 
+and (orientation : landscape) {
+.header {
+    height: 17vw;
+    background-size: contain; 
+}
+}
 
-    .header > div {
-        position: fixed;
-        width: 100%;
-        height: 480px;
-        background-repeat: no-repeat;
-        background-size: 1618px 500px;
-        background-position: center 0px;
-        
-    }
-
+@media only screen 
+and (min-width: 1800px) {
+.header {
+    height: 12vw;
+    background-size: contain; 
+}
+.header h2 {
+    font-size: 3.5em;
+}
 }

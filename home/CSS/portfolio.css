@@ -12,7 +12,6 @@
     transition: background 0.3s;
     border-radius: 50%;
     cursor: pointer;
-    -webkit-transform: translate3d(0,0,0);
 }
 
 .circle:hover {
@@ -22,12 +21,12 @@
 }
 
 .circle img {
-	position: absolute;
+	position: relative;
 	display: block;
-    width: 325px;
-    left: 50%;
-    margin-left: -162px;
-    margin-top: 70px;
+    max-width: 300px;
+    max-height: 250px;
+    margin: 0 auto;
+    margin-top: 100px;
     -webkit-filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.3));
 	filter: url(shadow.svg#drop-shadow);
 }
@@ -42,14 +41,15 @@
 
 .caption {
 	position: absolute;
-    margin-left: 125px;
-    margin-top: 355px;
+    margin-left: 95px;
+    margin-top: 330px;
 }
 
 .caption h2{
 	text-align: center;
 	font-size: 2.0em;
-	font-family: 'Norwester', Arial, sans-serif;
+	font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 800 !important;
 	color: #fff; 
     margin-bottom: 10px;
     font-weight:normal;
@@ -58,8 +58,10 @@
 
 .caption p {
 	text-align: center;
-	font-size: 1.2em;
-	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 1.05em;
+    line-height: 1.25em;
+	font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 300 !important;
 	color: #fff;
     margin-top: 10px;
     font-weight: 300;
@@ -79,15 +81,18 @@
     height: 2px;
     border: none;
     background-color: #fff;
+    margin-bottom: 15px;
 }
 
 .contact {
-    height: 400px;
+    height: 55vh;
+    /** height: 430px; **/
     background-color:rgba(255, 255, 255, 0.1);
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-bottom: 3%;
-    padding-top: 210px; 
+    margin-left: 42px;
+    margin-right: 42px;
+    margin-bottom: 42px;
+    padding-top: 27.5vh;
+    /** padding-top: 225px; **/
     text-align: center;
     border-radius: 3px;
 }
@@ -103,7 +108,6 @@
     -webkit-transition: opacity 0.3s;
     transition: opacity 0.3s;
     /* -webkit-transition : -webkit-filter .2s linear; */
-    -webkit-transform: translate3d(0,0,0);
 }
 
 .contact img:hover {
@@ -111,3 +115,29 @@
     /* -webkit-filter: brightness(0.45); filter: brightness(0.45); */
     
 }
+
+/************/
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (orientation: portrait) {
+  
+  .contact {
+    height: 55vh;
+    padding-top: 38.5vh;
+}    
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)
+  and (orientation: portrait) {
+  
+  .contact {
+    height: 55vh;
+    padding-top: 35vh;
+} 
+}
+
+/************/

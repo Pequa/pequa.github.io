@@ -1,303 +1,86 @@
-@font-face {
-    font-family: Norwester;
-    src: url(../Fonts/norwester.otf);
+html {
+    height: 100%;
 }
-
-html, body, {
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
-}
-
-/************/
 
 body {
+    height: 100%;
     background-color: #363636;
 }
 
+/************/
+
 .background {
-  background: url(../Images/bg2.jpg);
+  background: url(../Images/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   position: fixed;
   width: 100%;
-  height: 105%;
+  height: 100%;
+  z-index: -1;
 }
 
 /************/
-
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-  
-  .background {
-  background: url(../Images/bg2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: fixed;
-  width: 100%;
-  height: 1600px;
-  }      
-}
-
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-  
-  .background {
-  background: url(../Images/bg2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: fixed;
-  width: 100%;
-  height: 1300px;
-  }      
-}
-
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-  
-  .background {
-  background: url(../Images/bg2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: fixed;
-  width: 100%;
-  height: 900px;
-  }      
-}
-
-/************/
-
-.title {
-    height: 150px; 
-    width: 100%; 
-    max-width: 2560px;
-    position: relative; 
-    margin-bottom: -7px;
-    top: 120px;
-    -webkit-transform: translate3d(0,0,0);
-}
-
-.title-top h2 {
-	position: relative;
-	display: block;
-	font-size: 2.9em;
-	font-family: 'Norwester', Arial, sans-serif;
-	letter-spacing: 0px;
-	color: #fff; 
-	top: 0px;
-	text-align: center;
-	margin-left: auto;
-  	margin-bottom: auto;
-  	margin-top: -11px;
-    -webkit-transform: translate3d(0,0,0);
-    font-weight:normal;
-    -webkit-font-smoothing: antialiased;
-}
-
-.title-bottom h2 {
-	position: relative;
-	display: block;
-	font-size: 1.6em;
-	font-family: 'Roboto', Arial, sans-serif;
-	letter-spacing: 8px;
-	color: #fff; 
-	top: 0px;
-	text-align: center;
-	margin-left: auto;
-  	margin-bottom: auto;
-  	margin-top: 5px;
-  	padding-left: 3px;
-    -webkit-transform: translate3d(0,0,0);  
-    font-weight: 300;
-    -webkit-font-smoothing: antialiased;
-}
-
-hr {
-   position: relative;
-   border: solid #fff;
-   border-width: 1px;
-   opacity: 0;
-   width: 0px;
-   margin-top: 0px;
-   margin-left: auto;
-   margin-bottom: auto;
-   z-index: 10;
-   -webkit-transform: translate3d(0,0,0);
-}
-
- .line {
-    -webkit-animation: lineexpand 1.8s;
-    animation: lineexpand 1.8s;
-    -webkit-animation-delay: 1.2s;
-    animation-delay: 1.2s;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes lineexpand {
-    from {width: 0px; opacity: 0;}
-    to {width: 235px; opacity: 1;}
-}
-
-@keyframes lineexpand {
-    from {width: 0px; opacity: 0;}
-    to {width: 235px; opacity: 1;}
-} 
-
-/*******************/
-
-.animated {
-  -webkit-animation-duration: 2.5s;
-          animation-duration: 2.5s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-}
-
-.animated.infinite {
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 12px, 0);
-            transform: translate3d(0, 12px, 0);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-            transform: none;
-  }
-}
-
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 12px, 0);
-            transform: translate3d(0, 12px, 0);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-            transform: none;
-  }
-}
-
-.fadeInDown {
-  -webkit-animation-name: fadeInDown;
-          animation-name: fadeInDown;
-}
-
-@-webkit-keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -12px, 0);
-            transform: translate3d(0, -12px, 0);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-            transform: none;
-  }
-}
-
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -12px, 0);
-            transform: translate3d(0, -12px, 0);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-            transform: none;
-  }
-}
-
-.fadeInUp {
-  -webkit-animation-name: fadeInUp;
-          animation-name: fadeInUp;
-}
-
-/*******************/
 
 .grid {
 	position: relative;
 	margin: 0 auto;
-	padding: 0em 2.5em;
-	max-width: 1400px;
+    width: calc(100% - 40px);
+    height: calc(100% - 75px);
+	padding-top: 75px;
 	list-style: none;
 	text-align: center;
-	margin-top: 100px;
-    -webkit-transform: translate3d(0,0,0);
-    
 }
 
 .tile {
 	position: relative;
 	display: inline-block;
 	overflow: hidden;
-	margin: 3px;
-    margin-bottom: 8px;
-    width: 230px;
-    height: 230px;
+    width: 20%;
+    height: 50%;
 	text-align: center;
+    margin: -2px;
 	cursor: pointer;
-    background: rgba(255,255,255,0.6);
     transition: background 0.3s;
-    border-radius: 3px;
-    -webkit-transform: translate3d(0,0,0);
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0)
-  and (min-resolution:.001dpcm) {
-    .tile{margin-bottom: 3px;} 
+    /** background: rgba(52,73,95,0.75); **/
 }
 
 .tile:hover {
-    background: rgba(255,255,255,0.8);
+    background: rgba(52,73,95,1);
     -webkit-transition: background 0.3s;
 	transition: background 0.3s;
 }
 
 .tile img {
-	position: absolute;
-	display: block;
-    width: 176px;
-    left: 50%;
-    margin-left: -88px;
-    margin-top: 12px;
-    -webkit-filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.3));
-    filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.3));
-    /* filter: url(shadow.svg#drop-shadow); */
+	position: relative;
+    max-width: 14vw;
+    max-height: 10vw;
+    margin: 0 auto;
+    /** -webkit-filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.3)); **/
+    /** filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.3)); **/
+}
+
+.projectwrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.projectinfo {
+    margin: 0 auto;
 }
 
 .tiletext h2 {
-    font-size: 1.4em;
-    font-family: 'Norwester';
+    display: inline;
+    font-size: 1.25em;
+    line-height: 1em;
+    font-family: 'Poppins';
+    font-weight: 800 !important;
     color: #fff;
     text-transform: uppercase;
     margin-top: 177px;
     margin-bottom: 0px;
     -webkit-filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.2));
     filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.2));
-	/* filter: url(shadow.svg#drop-shadow); */
     font-weight:normal;
     -webkit-font-smoothing: antialiased;
 }
@@ -306,14 +89,14 @@ hr {
     font-size: 0.75em;
     font-weight: 400;
     letter-spacing: 0px;
-    font-family: 'Roboto';
-    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 800 !important;
+    color: #1DD1A1;
     text-transform: uppercase;
     margin-top: -3px;
     margin-bottom: 0px;
     -webkit-filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.2));
     filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.2));
-	/* filter: url(shadow.svg#drop-shadow); */
     font-weight:normal;
     -webkit-font-smoothing: antialiased;
 }
@@ -329,7 +112,29 @@ hr {
     margin-bottom: 0px;
     -webkit-filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.2));
     filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.2));
-	/* filter: url(shadow.svg#drop-shadow); */
     font-weight:normal;
     -webkit-font-smoothing: antialiased;
+}
+
+@media only screen and (max-width: 1150px) {
+.tile {
+    width: 33.33%;
+    height: 40%;
+}
+.tile img {
+    max-width: 16vw;
+    max-height: 18vw;
+    
+}
+}
+
+@media only screen and (orientation: portrait) {
+.tile {
+    height: 25%;
+}
+.tile img {
+    max-width: 16vw;
+    max-height: 16vw;
+    
+}
 }
