@@ -16,7 +16,7 @@ body {
     z-index: -1;
     background-image: url(../Images/header-bg.jpg);
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     background-position: top;
 		box-shadow: inset 0px 0px 40px rgba(0,0,0,0.15);
 }
@@ -49,19 +49,7 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-@media only screen
-and (max-width: 1150px) {
-.header {
-    height: 17vw;
-		padding-top: 7.7%;
-    background-size: contain;
-}
-.header h2 {
-    font-size: 2.6em;
-}
-}
-
-@media only screen
+/** @media only screen
 and (max-device-width : 1380px)
 and (orientation : landscape) {
 .header {
@@ -69,16 +57,46 @@ and (orientation : landscape) {
 		padding-top: 7.8%;
     background-size: contain;
 }
-}
+} **/
 
 @media only screen
 and (min-width: 1800px) {
 .header {
     height: 12.5vw;
-		padding-top: 2.8%;
-    background-size: contain;
+		padding-top: 2.9%;
 }
 .header h2 {
     font-size: 3.0em;
+}
+.header h3 {
+    font-size: 1.2em;
+}
+}
+
+@media only screen
+and (max-width: 1400px) {
+.header {
+    height: 15vw;
+		padding-top: 6.2%;
+}
+.header h2 {
+    font-size: 2.6em;
+}
+.header h3 {
+    font-size: 0.9em;
+}
+}
+
+@media only screen
+and (max-width: 1050px) {
+.header {
+    height: 16vw;
+		padding-top: 8.3%;
+}
+.header h2 {
+    font-size: 2.2em;
+}
+.header h3 {
+    font-size: 0.8em;
 }
 }
