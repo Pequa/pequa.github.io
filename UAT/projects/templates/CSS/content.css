@@ -102,7 +102,7 @@
 }
 
 @media only screen
-and (min-width: 1800px) {
+and (min-width: 2000px) {
 .text h2 {
     font-size: 2.4em;
     line-height: 1.2em;
@@ -111,8 +111,8 @@ and (min-width: 1800px) {
     font-size: 1.2em;
 }
 .text p {
-    font-size: 1.0em;
-    line-height: 1.8em;
+    font-size: 0.9em;
+    line-height: 1.7em;
 }
 }
 
@@ -139,7 +139,7 @@ and (min-width: 1800px) {
   and (max-width: 1050px) {
 .text h2 {
     font-size: 1.4em;
-    line-height: 0.8em;
+    line-height: 0.9em;
 }
 .text h3 {
     font-size: 0.8em;

@@ -16,7 +16,7 @@ body {
     z-index: -1;
     background-image: url(../Images/header-bg.jpg);
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     background-position: top;
 		box-shadow: inset 0px 0px 40px rgba(0,0,0,0.15);
 }
@@ -60,13 +60,13 @@ and (orientation : landscape) {
 } **/
 
 @media only screen
-and (min-width: 1800px) {
+and (min-width: 2000px) {
 .header {
-    height: 12.5vw;
-		padding-top: 2.9%;
+    height: 11vw;
+		padding-top: 1.8%;
 }
 .header h2 {
-    font-size: 3.0em;
+    font-size: 3.2em;
 }
 .header h3 {
     font-size: 1.2em;
