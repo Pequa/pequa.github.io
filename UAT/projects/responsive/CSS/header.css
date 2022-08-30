@@ -9,8 +9,8 @@ body {
 }
 
 .header {
-    height: 14vw;
-    padding-top: 4.5%;
+    height: 13.5vw;
+    padding-top: 4%;
     display: flex;
 		flex-direction: column;
     z-index: -1;
@@ -53,7 +53,7 @@ body {
 and (max-width: 1150px) {
 .header {
     height: 17vw;
-		padding-top: 8.5%;
+		padding-top: 7.7%;
     background-size: contain;
 }
 .header h2 {
@@ -66,7 +66,7 @@ and (max-device-width : 1380px)
 and (orientation : landscape) {
 .header {
     height: 17vw;
-		padding-top: 8.5%;
+		padding-top: 7.8%;
     background-size: contain;
 }
 }
@@ -74,11 +74,11 @@ and (orientation : landscape) {
 @media only screen
 and (min-width: 1800px) {
 .header {
-    height: 12vw;
-		padding-top: 2.5%;
+    height: 12.5vw;
+		padding-top: 2.8%;
     background-size: contain;
 }
 .header h2 {
-    font-size: 3.5em;
+    font-size: 3.0em;
 }
 }
