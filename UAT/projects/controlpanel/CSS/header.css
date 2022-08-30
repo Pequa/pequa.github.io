@@ -16,7 +16,7 @@ body {
     z-index: -1;
     background-image: url(../Images/header-bg.jpg);
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     background-position: top;
 		box-shadow: inset 0px 0px 40px rgba(0,0,0,0.15);
 }
