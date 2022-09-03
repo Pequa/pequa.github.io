@@ -20,7 +20,8 @@ html, body, {
 }
 
 body {
-    background-color: #363636;
+    min-width: 800px;
+    background-color: #333;
 }
 
 .background {
@@ -45,15 +46,15 @@ body {
 
 /************/
 
-@media only screen 
-  and (min-device-width: 320px) 
+@media only screen
+  and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (orientation: portrait) {
-  
+
   .background {
   height: 42vh;
   }
-      
+
   .background > div {
   position: fixed;
   width: 100%;
@@ -62,15 +63,15 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  background-position: center center; 
-  }      
+  background-position: center center;
+  }
 }
 
-@media only screen 
-  and (min-device-width: 768px) 
+@media only screen
+  and (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (orientation: portrait) {
-  
+
   .background > div {
   position: fixed;
   width: 100%;
@@ -79,7 +80,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  background-position: center center; 
+  background-position: center center;
   }
 }
 
@@ -95,9 +96,9 @@ body {
 
 .title {
 	 height: 52vh;
-     width: 100%; 
+     width: 100%;
      max-width: 2560px;
-     position: relative; 
+     position: relative;
      margin-bottom: -7px;
      -webkit-transform: translate3d(0,0,0);
 }
@@ -107,36 +108,38 @@ body {
 	display: block;
 	font-size: 5.45em;
 	font-family: 'Poppins', Arial, sans-serif;
-    font-weight: 800 !important;
+  font-weight: 800 !important;
 	letter-spacing: 0px;
-	color: #fff; 
+	color: #fff;
 	top: 0px;
 	text-align: center;
 	margin-left: auto;
-  	margin-bottom: -10px;
-  	margin-top: -10px;
-    font-weight:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-transform: translate3d(0,0,0);
+  margin-bottom: -10px;
+  margin-top: -10px;
+  font-weight:normal;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  -webkit-transform: translate3d(0,0,0);
 }
 
 .title-bottom h2 {
 	position: relative;
 	display: block;
-	font-size: 1.97em;
+	font-size: 1.83em;
 	font-family: 'Poppins', Arial, sans-serif;
-    font-weight: 300 !important;
+  font-weight: 300 !important;
 	letter-spacing: 2px;
-	color: #fff; 
+	color: #fff;
 	top: 0px;
 	text-align: center;
 	margin-left: auto;
-  	margin-bottom: auto;
-  	margin-top: 5px;
-  	padding-left: 3px;
-    font-weight: 300;
-    -webkit-font-smoothing: antialiased;
-    -webkit-transform: translate3d(0,0,0);
+  margin-bottom: auto;
+  margin-top: 5px;
+  padding-left: 3px;
+  font-weight: 300;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  -webkit-transform: translate3d(0,0,0);
 }
 
 hr {
@@ -169,7 +172,7 @@ hr {
 @keyframes lineexpand {
     from {width: 0px; opacity: 0;}
     to {width: 555px; opacity: 1;}
-} 
+}
 
 /*******************/
 

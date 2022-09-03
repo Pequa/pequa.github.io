@@ -4,7 +4,7 @@ html {
 
 body {
     height: 100%;
-    background-color: #333;
+    background-color: #363636;
 }
 
 /************/
@@ -31,15 +31,11 @@ body {
 	text-align: center;
 }
 
-.grid a {
-	text-decoration: none;
-}
-
 .tile {
 	position: relative;
 	display: inline-block;
 	overflow: hidden;
-    width: 25%;
+    width: 50%;
     height: 50%;
 	text-align: center;
     margin: -2px;
@@ -105,10 +101,6 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-.tiletext p span {
-    color: #FFBB2E;
-}
-
 .tiletext h3 {
     font-size: 0.75em;
     font-weight: 400;
@@ -124,7 +116,7 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1150px) {
 .tile {
     width: 33.33%;
     height: 40%;
@@ -138,7 +130,7 @@ body {
 
 @media only screen and (orientation: portrait) {
 .tile {
-    height: 33.33%;
+    height: 25%;
 }
 .tile img {
     max-width: 16vw;

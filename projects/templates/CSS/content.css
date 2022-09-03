@@ -60,57 +60,92 @@
 }
 
 .text h2 {
-	font-family: 'Poppins', Arial, sans-serif;
+	  font-family: 'Poppins', Arial, sans-serif;
     font-weight: 800;
-    font-size: 2.0em;
+    font-size: 2.1em;
     line-height: 1.0em;
-	color: #fff; 
+    margin-bottom: 5px;
+	  color: #fff;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+}
+
+.text h3 {
+	  font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 1.0em;
+    line-height: 0.9em;
+    margin-top: 0px;
+    margin-bottom: 22px;
+	  color: #1DD1A1;
+    text-transform: uppercase;
     -webkit-font-smoothing: antialiased;
 }
 
 .text p {
-	font-family: 'Poppins', Arial, sans-serif;
+	  font-family: 'Poppins', Arial, sans-serif;
     font-weight: 400;
     font-size: 0.8em;
     line-height: 1.6em;
-	color: #fff;
+	  color: #fff;
     -webkit-font-smoothing: antialiased;
 }
 
 .text hr {
-    width: 60px; 
-    opacity: 1; 
+    width: 60px;
+    opacity: 1;
     height: 2px;
     border: none;
-    background-color: #1DD1A1;
+    background-color: rgba(255,255,255,0.5);
     margin-bottom: 20px;
     margin-left: 0px;
 }
 
-@media only screen 
-  and (max-width: 1150px) {
-.text {
-    padding-left: 5%;
-    padding-right: 5%;
+@media only screen
+and (min-width: 2000px) {
+.text h2 {
+    font-size: 2.4em;
+    line-height: 1.2em;
 }
+.text h3 {
+    font-size: 1.2em;
+}
+.text p {
+    font-size: 0.9em;
+    line-height: 1.7em;
+}
+}
+
+@media only screen
+  and (max-width: 1400px) {
 .text h2 {
     font-size: 1.8em;
     line-height: 0.9em;
 }
+.text h3 {
+    font-size: 0.9em;
+}
 .text p {
-    font-size: 0.7em;
-    line-height: 1.4em;
+    font-size: 0.75em;
+    line-height: 1.55em;
+}
+.text {
+    padding-left: 5%;
+    padding-right: 5%;
 }
 }
 
-@media only screen 
-and (min-width: 1800px) {
+@media only screen
+  and (max-width: 1050px) {
 .text h2 {
-    font-size: 2.3em;
-    line-height: 1.1em;
+    font-size: 1.4em;
+    line-height: 0.9em;
+}
+.text h3 {
+    font-size: 0.8em;
 }
 .text p {
-    font-size: 1.0em;
+    font-size: 0.6em;
     line-height: 1.5em;
 }
 }
