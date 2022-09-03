@@ -20,7 +20,8 @@ html, body, {
 }
 
 body {
-    background-color: #363636;
+    min-width: 800px;
+    background-color: #333;
 }
 
 .background {
